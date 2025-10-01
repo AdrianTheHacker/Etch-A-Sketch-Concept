@@ -27,8 +27,11 @@ Ultimately I chose to use potentiometers over rotary encoders due to their ease 
   - Default colour is black but by pressing the function you can switch between black, red and white
 
 - Desktop application interfacing via bluetooth
-  - The idea behind this feature would be to enable multiple users to share one canvas. All users would connect to the desktop app via bluetooth, and the desktop app would handle all necessary logic needed for multiple users
+  - Function button for saving drawing data to computer
+  - Desktop application for reading this data and then storing it in a txt file
+  - When etch-a-sketch is blank, function button loads previous drawing
   - Include pin headers on the PCB for an attachable HC06 Bluetooth module
+  - Potential expansion could include multi user canvases
 
 ## Firmware
 - Makefile project created by STM32CubeMX
@@ -46,7 +49,7 @@ Below is a list of stuff to include on the main PCB
 - Two function buttons using MCU's internal pull-down resistors
 - Passive components like resistors and capacitors (TBD)
 
-![Etch-a-Sketch Circuit Board Diagram]("images\etchasketch_circuit_board_diagram.jpeg")
+![Etch-a-Sketch Circuit Board Diagram](./images/etchasketch_circuit_board_diagram.jpeg)
 
 
 ## Mechanical
