@@ -46,7 +46,7 @@ Below is a list of stuff to include on the main PCB
 - Two function buttons using MCU's internal pull-down resistors
 - Passive components like resistors and capacitors (TBD)
 
-![Etch-a-Sketch Circuit Board Diagram]("images\etchasketch_circuit_board_diagram.jpeg")
+![Etch-a-Sketch Circuit Board Diagram]("./images/etchasketch_circuit_board_diagram.jpeg")
 
 
 ## Mechanical
