@@ -41,6 +41,7 @@
 - 2x [10K Resistors](https://www.adafruit.com/product/2784) for pull-ups
 - 1x [ADXL343BCCZ-RL7](https://www.digikey.ca/en/products/detail/analog-devices-inc/ADXL343BCCZ-RL7/3542894) accelerometer
 - 1x [Adafruit Bluefruit LE SPI Friend - Bluetooth Low Energy (BLE)](https://www.adafruit.com/product/2633)
+- 1x [CR2032 Coincell Battery Holder](https://www.digikey.ca/en/products/detail/te-connectivity-linx/BAT-HLD-001/1577235)
 
 ## Resources
 - [E-Ink display datasheet](https://cdn-shop.adafruit.com/product-files/6382/6382+C22266-001+datasheet+ZJY400300-042CABMFGN-R.pdf)

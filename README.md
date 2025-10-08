@@ -10,7 +10,7 @@
 - Shake detection for erasing data
   - [ADXL343BCCZ-RL7](https://www.digikey.ca/en/products/detail/analog-devices-inc/ADXL343BCCZ-RL7/3542894) [[Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf)]
 - Power via CR203
-  - [Single CR2032 / 20mm Coin Cell Battery Holder with Switch](https://www.adafruit.com/product/4856)
+  - [Single CR2032 Battery Cell Holder](https://www.digikey.ca/en/products/detail/te-connectivity-linx/BAT-HLD-001/1577235)
   - Implement a sleep mode for the device
 
 ## Why Choose Potentiometers over Rotary Encoders?
