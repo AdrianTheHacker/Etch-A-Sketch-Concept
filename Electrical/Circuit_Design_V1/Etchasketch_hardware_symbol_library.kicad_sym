@@ -634,6 +634,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -645,7 +646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -654,7 +655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ADXL343 Accelometer"
 			(at 0 0 0)
 			(effects
 				(font
@@ -663,21 +664,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADXL343BCCZ-RL7_0_1"
+		(symbol "ADXL343BCCZ-RL7_1_1"
 			(rectangle
 				(start -17.78 11.43)
 				(end 16.51 -11.43)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type color)
 					(color 255 238 129 1)
 				)
 			)
-		)
-		(symbol "ADXL343BCCZ-RL7_1_1"
 			(pin input line
 				(at -17.78 3.81 0)
 				(length 2.54)
