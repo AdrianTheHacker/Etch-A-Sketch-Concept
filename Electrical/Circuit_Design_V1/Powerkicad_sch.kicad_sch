@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "3d548edb-12fa-4fc3-8516-30875191ffd2")
+	(uuid "71eee1b5-602f-47f5-87a1-6cd5b9a3f893")
 	(paper "A4")
 	(title_block
 		(title "Power")
@@ -763,7 +763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nextgen-components/0603B105K250XD/14670931"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B105K100XD.pdf"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -772,8 +772,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603B105K250XD 1uF Ceramic Capacitor (25V)"
+		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "3372-0603B105K100XDTR-ND"
+			(at 149.86 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
