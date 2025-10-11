@@ -411,6 +411,26 @@
     [
       "40e3562c-f358-42bb-8418-a7c96a575201",
       "Root"
+    ],
+    [
+      "22ee8bef-5a34-4d52-90cd-723a34479263",
+      "MCU"
+    ],
+    [
+      "77ccf48f-6fc6-40d1-bcac-a7b0f3f18bd6",
+      "Accelerometer"
+    ],
+    [
+      "63e88297-887d-43ae-96c8-dfd9e2353300",
+      "Display"
+    ],
+    [
+      "7c7c338d-bf18-45a4-ba84-dd266c3ba486",
+      "Power"
+    ],
+    [
+      "c6541adc-3b3b-4d43-a6c6-6559a1b9fb58",
+      "BlueTooth"
     ]
   ],
   "text_variables": {}
