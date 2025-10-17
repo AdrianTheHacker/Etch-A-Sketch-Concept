@@ -1408,7 +1408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TLC.pdf"
 			(at 81.28 81.28 0)
 			(effects
 				(font
@@ -1426,7 +1426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "1276-1029-2-ND"
+		(property "Digikey Part Number" "478-5265-1-ND"
 			(at 81.28 81.28 0)
 			(effects
 				(font
