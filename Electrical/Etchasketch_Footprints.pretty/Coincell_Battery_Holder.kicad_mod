@@ -1,0 +1,115 @@
+(footprint "Coincell_Battery_Holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "afc7abdb-a204-4446-9e9c-2a62751b6d88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Coincell_Battery_Holder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10215305-8d9a-4eb8-90e7-4b78873d3860")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f4c74b1-201e-43e3-90b9-cc09b915ea21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67764d7d-20be-4ff3-b75b-f25ba0a7121a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -13 -2.75)
+		(end -10 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fc966e17-36ea-4d8a-9beb-7725e2fe014c")
+	)
+	(fp_rect
+		(start 10 -2.75)
+		(end 13 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cc103148-4b84-49e6-9a88-51d84ae2e3e4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8.882126 -0.139488)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cbb4811e-5cf1-488e-ac88-1d7b3bd4f973")
+	)
+	(pad "1" smd roundrect
+		(at -11.5 0 90)
+		(size 5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6c6897e0-d1ad-4825-bcd2-0e708d337048")
+	)
+	(pad "1" smd roundrect
+		(at 11.5 0 90)
+		(size 5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "970f440d-68d5-44cf-a05a-7183b7838166")
+	)
+	(pad "2" smd circle
+		(at 0 0)
+		(size 17.46425 17.46425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0b8871b-a8b8-4212-8f07-f749577f6630")
+	)
+	(embedded_fonts no)
+)

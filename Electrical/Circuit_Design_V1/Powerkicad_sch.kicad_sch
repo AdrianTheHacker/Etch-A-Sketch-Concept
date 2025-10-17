@@ -148,6 +148,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SS38"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS38"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "80V 3A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS38_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS38_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Etchasketch_hardware_symbol_library:20mm_Coin_Cell_Breakout_Board_(CR2032)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -166,9 +316,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Etchasketch_Footprints:Coincell_Battery_Holder"
 				(at 0 0 0)
 				(effects
 					(font
@@ -205,7 +356,7 @@
 					)
 					(fill
 						(type color)
-						(color 255 238 129 1)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -586,12 +737,6 @@
 		)
 	)
 	(junction
-		(at 146.05 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06345b90-f5a1-454d-9093-89f7dbfe2cb0")
-	)
-	(junction
 		(at 153.67 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -602,6 +747,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8658b6b8-0912-46de-ada9-91a3fb23e69b")
+	)
+	(junction
+		(at 146.05 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5dac7e5-0087-4284-a9bb-ae1750920c19")
 	)
 	(junction
 		(at 139.7 113.03)
@@ -631,6 +782,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 104.14) (xy 146.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc687c8-fa6f-4bda-b584-005d7464e5c4")
+	)
+	(wire
+		(pts
 			(xy 139.7 106.68) (xy 139.7 113.03)
 		)
 		(stroke
@@ -651,6 +812,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 93.98) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb807cd-da62-4329-b328-4da6e9709bee")
+	)
+	(wire
+		(pts
 			(xy 160.02 113.03) (xy 160.02 119.38)
 		)
 		(stroke
@@ -661,23 +832,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 106.68) (xy 146.05 99.06)
+			(xy 146.05 93.98) (xy 146.05 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76f82768-e222-4710-b0af-4d1a310130be")
-	)
-	(wire
-		(pts
-			(xy 146.05 99.06) (xy 146.05 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f3ed71-729b-49ee-9527-ec2a66ddb4d3")
+		(uuid "9dd8ca2a-549f-4d67-93e9-7770c1be3e12")
 	)
 	(wire
 		(pts
@@ -754,7 +915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.05 113.9952 0)
 			(effects
 				(font
@@ -807,7 +968,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 146.05 99.06 90)
+		(at 146.05 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -816,7 +977,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e72dd6a-338e-4f49-9dae-062fbd66d5ca")
 		(property "Reference" "#FLG01"
-			(at 144.145 99.06 0)
+			(at 144.145 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +986,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 142.24 99.0599 90)
+			(at 142.24 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 99.06 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +1004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 99.06 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +1013,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 146.05 99.06 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,6 +1100,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Etchasketch_hardware_symbol_library:20mm_Coin_Cell_Breakout_Board_(CR2032)")
+		(at 149.86 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712f8095-2a19-47d5-881e-bc6e06e425c4")
+		(property "Reference" "P1"
+			(at 158.75 83.4361 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Etchasketch_Footprints:Coincell_Battery_Holder"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-001&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-001"
+			(at 150.876 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Coincell battery holder"
+			(at 149.352 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cdca456-2962-48a3-a90a-ef5e35f68242")
+		)
+		(pin "2"
+			(uuid "2021cce6-5a31-4bfe-9d4e-87b6b273fc88")
+		)
+		(instances
+			(project ""
+				(path "/40e3562c-f358-42bb-8418-a7c96a575201/7c7c338d-bf18-45a4-ba84-dd266c3ba486"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 119.38 0)
 		(unit 1)
@@ -999,76 +1230,6 @@
 			(project ""
 				(path "/40e3562c-f358-42bb-8418-a7c96a575201/7c7c338d-bf18-45a4-ba84-dd266c3ba486"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Etchasketch_hardware_symbol_library:20mm_Coin_Cell_Breakout_Board_(CR2032)")
-		(at 149.86 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f79e9ac-b851-47e8-a4a9-f4689d839302")
-		(property "Reference" "P1"
-			(at 158.75 82.1661 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 158.75 84.7061 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-001&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-001"
-			(at 150.876 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Coincell battery holder"
-			(at 149.352 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b3cecd1-55d9-44c4-8c3a-c2cbbbb66795")
-		)
-		(pin "2"
-			(uuid "4178f52b-ba4d-4461-80bd-6b3fd4ad9713")
-		)
-		(instances
-			(project ""
-				(path "/40e3562c-f358-42bb-8418-a7c96a575201/7c7c338d-bf18-45a4-ba84-dd266c3ba486"
-					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -1136,6 +1297,76 @@
 			(project ""
 				(path "/40e3562c-f358-42bb-8418-a7c96a575201/7c7c338d-bf18-45a4-ba84-dd266c3ba486"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS38")
+		(at 146.05 100.33 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0637c43-eae8-43fd-8d19-788f2386aee5")
+		(property "Reference" "D1"
+			(at 143.51 99.3774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS38"
+			(at 143.51 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 141.605 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "80V 3A Schottky Diode, SMA"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eba39a45-8344-47bc-8567-960ed89bc94a")
+		)
+		(pin "1"
+			(uuid "731b4ea9-8fce-4c7b-b10f-d989e9746d74")
+		)
+		(instances
+			(project ""
+				(path "/40e3562c-f358-42bb-8418-a7c96a575201/7c7c338d-bf18-45a4-ba84-dd266c3ba486"
+					(reference "D1")
 					(unit 1)
 				)
 			)
