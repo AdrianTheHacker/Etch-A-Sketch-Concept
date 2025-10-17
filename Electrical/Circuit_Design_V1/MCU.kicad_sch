@@ -2754,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 99.06 114.3)
+			(xy 99.06 115.57) (xy 99.06 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2784,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 100.33) (xy 99.06 106.68)
+			(xy 99.06 100.33) (xy 99.06 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2834,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 86.36 115.57)
+			(xy 86.36 111.76) (xy 86.36 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2954,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 106.68) (xy 86.36 100.33)
+			(xy 86.36 104.14) (xy 86.36 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3532,7 +3532,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 110.49 0)
+		(at 86.36 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3540,7 +3540,7 @@
 		(dnp no)
 		(uuid "51ea890a-899a-483c-a632-8b5db379b355")
 		(property "Reference" "C10"
-			(at 84.328 113.538 90)
+			(at 84.328 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3548,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 84.328 106.934 90)
+			(at 84.328 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.3252 114.3 0)
+			(at 87.3252 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B105K100XD.pdf"
-			(at 86.36 110.49 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3574,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 86.36 110.49 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3583,7 @@
 			)
 		)
 		(property "Digikey Part Number" "3372-0603B105K100XDTR-ND"
-			(at 86.36 110.49 90)
+			(at 86.36 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3958,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 110.49 180)
+		(at 99.06 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3966,7 +3966,7 @@
 		(dnp no)
 		(uuid "b8d5ceb4-938d-4a13-a95f-fe47c844fd20")
 		(property "Reference" "C9"
-			(at 97.028 113.792 90)
+			(at 97.028 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +3974,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 97.028 105.664 90)
+			(at 97.028 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +3982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.0948 106.68 0)
+			(at 98.0948 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3991,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
-			(at 99.06 110.49 0)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4000,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 99.06 110.49 0)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4009,7 @@
 			)
 		)
 		(property "Digikey Part Number" "3372-0603B104K101XDTR-ND"
-			(at 99.06 110.49 90)
+			(at 99.06 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
