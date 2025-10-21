@@ -57,6 +57,28 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ADX_CSl_Pin GPIO_PIN_4
+#define ADX_CSl_GPIO_Port GPIOA
+#define ADX_SCLK_Pin GPIO_PIN_5
+#define ADX_SCLK_GPIO_Port GPIOA
+#define ADX_SDO_Pin GPIO_PIN_6
+#define ADX_SDO_GPIO_Port GPIOA
+#define ADX_SDI_Pin GPIO_PIN_7
+#define ADX_SDI_GPIO_Port GPIOA
+#define ADX_INT1_Pin GPIO_PIN_4
+#define ADX_INT1_GPIO_Port GPIOC
+#define ADX_INT2_Pin GPIO_PIN_5
+#define ADX_INT2_GPIO_Port GPIOC
+#define INK_Dh_Cs_Pin GPIO_PIN_11
+#define INK_Dh_Cs_GPIO_Port GPIOB
+#define INK_CSs_Pin GPIO_PIN_12
+#define INK_CSs_GPIO_Port GPIOB
+#define INK_SCL_Pin GPIO_PIN_13
+#define INK_SCL_GPIO_Port GPIOB
+#define INK_BUSYh_Pin GPIO_PIN_14
+#define INK_BUSYh_GPIO_Port GPIOB
+#define INK_SDA_Pin GPIO_PIN_15
+#define INK_SDA_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
