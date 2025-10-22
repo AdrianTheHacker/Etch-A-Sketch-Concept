@@ -654,9 +654,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Etchasketch_Footprints:SW Pin Headers"
 			(at 0 0 0)
 			(effects
 				(font
