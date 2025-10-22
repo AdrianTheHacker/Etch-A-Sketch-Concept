@@ -291,7 +291,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -16.51 -2.54 90)
 				(length 2.54)
 				(name "TSCL"
@@ -507,7 +507,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 13.97 -2.54 90)
 				(length 2.54)
 				(name "VDD"
@@ -525,7 +525,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin no_connect line
 				(at 16.51 -2.54 90)
 				(length 2.54)
 				(name "VPP"
@@ -636,11 +636,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "HC06"
+	(symbol "Thru-hole_5-way_Navigation_switch"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "B"
 			(at 0 0 0)
 			(effects
 				(font
