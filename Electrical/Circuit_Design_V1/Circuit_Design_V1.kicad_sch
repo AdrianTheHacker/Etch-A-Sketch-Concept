@@ -1,0 +1,420 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "40e3562c-f358-42bb-8418-a7c96a575201")
+	(paper "A4")
+	(title_block
+		(title "Etchasketch System Design")
+		(company "AdrianTheHacker")
+	)
+	(lib_symbols)
+	(text "GPIO (Digital & Input)"
+		(exclude_from_sim no)
+		(at 117.602 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d615f21-85bc-4bf5-8413-0a8e4a3c5d5b")
+	)
+	(text "SPI (4-Wire)\n"
+		(exclude_from_sim no)
+		(at 191.008 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44142beb-5008-4151-be5f-c34f96c1fb19")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 158.496 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bfd78ba-72a5-4335-a6e4-5c1773ca210a")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 158.496 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d864200-dadb-4542-864a-9dee149fea98")
+	)
+	(text "SPI (4-Wire)"
+		(exclude_from_sim no)
+		(at 117.856 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fbaf86de-df0c-48f8-9e27-1b3de7b38035")
+	)
+	(junction
+		(at 228.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c13b22de-186a-4564-8385-d740778f2a37")
+	)
+	(junction
+		(at 154.94 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fea9b020-9073-4dd7-998c-29670d5a5161")
+	)
+	(bus
+		(pts
+			(xy 228.6 76.2) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121cd5e7-2b62-4f79-8258-d5c6b05aa304")
+	)
+	(bus
+		(pts
+			(xy 154.94 76.2) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d2b3fc-645c-4ca9-98f7-c65c8c7b440e")
+	)
+	(bus
+		(pts
+			(xy 154.94 118.11) (xy 154.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ad62b7-7013-4cdd-bf44-4f141e642bcb")
+	)
+	(bus
+		(pts
+			(xy 264.16 76.2) (xy 264.16 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415d5755-c5e2-4305-ac5a-8489b1afc315")
+	)
+	(bus
+		(pts
+			(xy 228.6 76.2) (xy 264.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c72976-5913-4ed1-9ba3-5df2cef0d8f8")
+	)
+	(bus
+		(pts
+			(xy 154.94 64.77) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b161b8-74b8-4bf0-8d14-0a5050baedde")
+	)
+	(bus
+		(pts
+			(xy 106.68 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74da3b53-2cba-4016-bf9d-2deda926e6e9")
+	)
+	(bus
+		(pts
+			(xy 154.94 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b13d93-bbf5-42e4-9067-7f9919d10c8a")
+	)
+	(bus
+		(pts
+			(xy 179.07 105.41) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc36603-6456-4b80-b0cb-e6acac052b8f")
+	)
+	(bus
+		(pts
+			(xy 154.94 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b697e6b2-3004-4e99-bbe6-500f832270e0")
+	)
+	(bus
+		(pts
+			(xy 106.68 110.49) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99f2b00-1100-4904-9bee-e6a43e713d94")
+	)
+	(bus
+		(pts
+			(xy 173.99 139.7) (xy 264.16 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcab4a8f-580e-42ee-ada6-55304206db9f")
+	)
+	(bus
+		(pts
+			(xy 74.93 76.2) (xy 74.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45f35d4-8f1a-487d-896d-249ffa62e46b")
+	)
+	(sheet
+		(at 129.54 93.98)
+		(size 49.53 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "22ee8bef-5a34-4d52-90cd-723a34479263")
+		(property "Sheetname" "MCU"
+			(at 149.098 102.108 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 144.526 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Circuit_Design_V1"
+				(path "/40e3562c-f358-42bb-8418-a7c96a575201"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 93.98)
+		(size 62.23 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "63e88297-887d-43ae-96c8-dfd9e2353300")
+		(property "Sheetname" "Display"
+			(at 67.31 99.314 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 65.532 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Circuit_Design_V1"
+				(path "/40e3562c-f358-42bb-8418-a7c96a575201"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 96.52)
+		(size 46.99 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "77ccf48f-6fc6-40d1-bcac-a7b0f3f18bd6")
+		(property "Sheetname" "Accelerometer"
+			(at 212.852 101.854 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Accelerometer.kicad_sch"
+			(at 214.884 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Circuit_Design_V1"
+				(path "/40e3562c-f358-42bb-8418-a7c96a575201"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 44.45)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "7c7c338d-bf18-45a4-ba84-dd266c3ba486")
+		(property "Sheetname" "Power"
+			(at 146.304 49.53 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Powerkicad_sch.kicad_sch"
+			(at 138.938 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Circuit_Design_V1"
+				(path "/40e3562c-f358-42bb-8418-a7c96a575201"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 133.35)
+		(size 38.1 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "c6541adc-3b3b-4d43-a6c6-6559a1b9fb58")
+		(property "Sheetname" "BlueTooth"
+			(at 144.018 138.43 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bluetooth.kicad_sch"
+			(at 143.51 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Circuit_Design_V1"
+				(path "/40e3562c-f358-42bb-8418-a7c96a575201"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -31,7 +31,32 @@
 - Implement circuitry necessary for communicating with and programming a [nRF52832 Bluetooth Low Energy Module](https://www.adafruit.com/product/4077).
 - Write driver for STM32G474RE for interfacing with the bluetooth module over SPI.
 
-## Parts List
+## System Design Notes
+
+### MCU
+- Use stm32g474ret3 lqfp64
+
+### Power
+- [CR2032 Coincell Battery Holder](https://www.digikey.ca/en/products/detail/te-connectivity-linx/BAT-HLD-001/1577235)
+
+### Accelerometer
+- Use ADXL343BCCZ-RL7
+- Communicate with MCU via SPI 4-wire
+
+### Display
+- Use 4.2" 300x400 Tri-Color eInk / ePaper - Bare Display - SSD1683
+- Use 2 Potentiometers for controlling the cursor coordinates
+  - [Panel Mount 10K potentiometer (Breadboard Friendly) - 10K Linear](https://www.adafruit.com/product/562)
+  - [Slim Metal Potentiometer Knob - 10mm Diameter x 15mm - T18](https://www.adafruit.com/product/2057)
+  - Communicates with MCU via MCU's ADC
+- Communicates with MCU via SPI 4-wire
+- Communicates with external temperature sensor via I2C (optional)
+
+### Bluetooth
+- Use attachable HC06 Bluetooth Module
+- Communicates with MCU via UART
+
+<!-- ## Parts List
 - 1x [STM32G474RET3-LQFP64](https://www.digikey.ca/en/products/detail/stmicroelectronics/STM32G474RET3/11590973)
 - 1x [E-Ink Display](https://www.adafruit.com/product/6382#technical-details)
 - 1x [24-pin FPC Connector](https://www.digikey.ca/en/products/detail/te-connectivity-amp-connectors/2-2495219-4/26862642)
@@ -41,6 +66,12 @@
 - 2x [10K Resistors](https://www.adafruit.com/product/2784) for pull-ups
 - 1x [ADXL343BCCZ-RL7](https://www.digikey.ca/en/products/detail/analog-devices-inc/ADXL343BCCZ-RL7/3542894) accelerometer
 - 1x [Adafruit Bluefruit LE SPI Friend - Bluetooth Low Energy (BLE)](https://www.adafruit.com/product/2633)
+- 1x [CR2032 Coincell Battery Holder](https://www.digikey.ca/en/products/detail/te-connectivity-linx/BAT-HLD-001/1577235)
+- 3x [0603B105K250XD 1uF Ceramic Capacitor (25V)](https://www.digikey.ca/en/products/detail/nextgen-components/0603B105K250XD/14670931)
+- 3x [MBR0530 Diode](https://www.digikey.ca/en/products/detail/smc-diode-solutions/MBR0530/16692306)
+- 1x [CDRH2D18/LDNP-470NC 47uH Inductor](https://www.digikey.ca/en/products/detail/sumida-america-components-inc/cdrh2d18-ldnp-470nc/3946958)
+- 1X [NX3008NBKVL N-Type MOSFET](https://www.digikey.ca/en/products/detail/nexperia-usa-inc/NX3008NBKVL/9671435)
+- 1x [RMCF0805FT2R20 2.2Ohms Resistor](https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0805FT2R20/1760344) -->
 
 ## Resources
 - [E-Ink display datasheet](https://cdn-shop.adafruit.com/product-files/6382/6382+C22266-001+datasheet+ZJY400300-042CABMFGN-R.pdf)
