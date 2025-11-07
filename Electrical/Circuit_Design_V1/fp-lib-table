@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "F33Z_1A7Q1_E8C24")(type "KiCad")(uri "C:/Users/User/Downloads/F33Z_1A7Q1_E8C24.pretty")(options "")(descr ""))
-  (lib (name "Etchasketch_Footprints")(type "KiCad")(uri "C:/Users/User/Documents/Work/Alumapower/Etch-A-Sketch-Concept/Electrical/Etchasketch_Footprints.pretty")(options "")(descr ""))
-)
