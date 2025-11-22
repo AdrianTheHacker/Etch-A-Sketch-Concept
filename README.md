@@ -25,6 +25,7 @@ In no particular order, the requirements are as follows:
 Sorted by sub-system.
 
 ### Processing
+[STM32G4 Hardware Configuration](https://www.st.com/resource/en/application_note/an5093-getting-started-with-stm32g4-series--hardware-development-boards-stmicroelectronics.pdf)
 - [1x] [STM32G484QET6](https://www.mouser.ca/ProductDetail/STMicroelectronics/STM32G484QET6?qs=uwxL4vQweFOef65amZQ%252BrA%3D%3D)
 - [2x] [Ceramic capacitor 100nF](https://www.mouser.ca/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D)
 - [1x] [Ceramic capacitor 4.7uF](https://www.mouser.ca/ProductDetail/TAIYO-YUDEN/LMK107BJ475KA-T?qs=PzICbMaShUfCoRlxZeLF0g%3D%3D)
