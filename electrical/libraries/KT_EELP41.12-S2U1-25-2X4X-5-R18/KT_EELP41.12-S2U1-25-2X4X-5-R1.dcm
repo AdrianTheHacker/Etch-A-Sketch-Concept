@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KT_EELP41.12-S2U1-25-2X4X-5-R18
+D LED, InGaN on Sapphire, True Green, SMD, 0603 [1608 Metric], 5 mA, 2.5 V, 527 nm
+K
+F https://in.element14.com/ams-osram-group/kt-eelp41-12-s2u1-25-2x4x-5-r18/led-true-green-224mcd-527nm-130deg/dp/4540818
+$ENDCMP
+#
+#End Doc Library
