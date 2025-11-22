@@ -50,7 +50,24 @@ Sorted by sub-system.
 - [1x] [Resistor 100Ω (for LED)](https://www.mouser.ca/ProductDetail/TE-Connectivity-Holsworthy/RT73F1J100RBTD?qs=sGAEpiMZZMtlubZbdhIBIOStsStSd9IEZF4WybNbkN0%3D)
 
 ### Display
-- Screen, controls for screen (pots and buttons)
+[Screen's circuit diagram](https://cdn-shop.adafruit.com/product-files/6393/P6393+C22273-001_datasheet_ZJY296152-0266EABMFGN-R.pdf)
+- [1x] [E-Ink display tri-colour 2.66In diagonal](https://www.adafruit.com/product/6393)
+- [9x] [Ceramic capacitor 1uF](https://www.mouser.ca/ProductDetail/TAIYO-YUDEN/MAJCT168BB7105KTEA01?qs=ZcfC38r4PotKRnvquyYkSA%3D%3D)
+- [1x] [Resistor 2.2Ω](https://www.mouser.ca/ProductDetail/Wurth-Elektronik/560112116088?qs=sGAEpiMZZMtlubZbdhIBIIgWRUA0vTGpJF%252BSN9qdKoo%3D)
+- [3x] [Diode](https://www.mouser.ca/ProductDetail/onsemi-Fairchild/MBR0530?qs=VOMQJJE%252BBNniwJKcE3T43Q%3D%3D)
+- [1x] [NMOS](https://www.mouser.ca/ProductDetail/Nexperia/NX3008NBKS115?qs=N31o%252Bt096gvSMWdFEcaa8A%3D%3D)
+- [1x] [Inductor 47uH](https://www.mouser.ca/ProductDetail/Sumida/CDRH2D18-LDNP-470NC?qs=mT6umqgwvA1P4peHEoEcxg%3D%3D)
+- [1x] [Screen connector](https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/687124149022/5047796)
+
+### Controls
+- [1x] [Accelerometer](https://www.mouser.ca/ProductDetail/Analog-Devices/ADXL345BCCZ?qs=WIvQP4zGanhoa7YOkGtvEg%3D%3D)
+- [1x] [Ceramic capacitor 100nF](https://www.mouser.ca/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D)
+- [1x] [Tantalum capacitor 1uF](https://www.mouser.ca/ProductDetail/KYOCERA-AVX/TACL105K010FTA?qs=sGAEpiMZZMtZ1n0r9vR22f0Jgorj1M1u11EugVUWwzY%3D)
+- [2x] [Potentiometer 10KΩ](https://www.adafruit.com/product/3395)
+- [2x] [Potentiometer cap](https://www.adafruit.com/product/2057)
+- [2x] [Pushbutton](https://www.adafruit.com/product/367)
+- [2x] [Resistor 10kΩ](https://www.mouser.ca/ProductDetail/TE-Connectivity-Holsworthy/RA73F1J10KBTDF?qs=sGAEpiMZZMtlubZbdhIBIJBDgjsVQBFl0L0uqFOGEF8%3D)
 
 ### Connectivity
-- WiFi module
+- [1x] [WiFi Module](https://www.adafruit.com/product/4201)
+- [3x] [Pin header (Sets of 4)](https://www.mouser.ca/ProductDetail/HARTING/14120416050000?qs=sGAEpiMZZMvlX3nhDDO4ADo1TeYw%2F5hz1M8q0I2khik%3D)
