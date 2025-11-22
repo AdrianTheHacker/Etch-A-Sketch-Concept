@@ -5,4 +5,93 @@
 	(uuid "b9d691b9-ee13-4512-a7bd-9ccd0c692959")
 	(paper "A4")
 	(lib_symbols)
+	(bus_entry
+		(at 49.53 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e81609a-0af1-4bef-b9c8-566b53a7ec24")
+	)
+	(bus_entry
+		(at 49.53 74.93)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd48f57-f5d0-4e5a-a808-5bef829a4794")
+	)
+	(wire
+		(pts
+			(xy 35.56 74.93) (xy 49.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437cf120-4796-4b43-adbe-54aa9dd6f3d7")
+	)
+	(bus
+		(pts
+			(xy 52.07 77.47) (xy 52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df8ed64-9461-47c1-878c-689e7f5cf01f")
+	)
+	(bus
+		(pts
+			(xy 52.07 71.12) (xy 52.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0958608-0232-4444-9652-6f95c91746b5")
+	)
+	(wire
+		(pts
+			(xy 35.56 68.58) (xy 49.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20bb7f1-6a6a-4672-b2b2-1c1d96ba1040")
+	)
+	(label "3V0"
+		(at 35.56 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca5bfd96-01ec-4b8d-b75e-1eb975edec6c")
+	)
+	(label "GND"
+		(at 35.56 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d492bcaf-14e8-4790-a76d-eb33a81511a3")
+	)
+	(hierarchical_label "{BATTERY_POWER}"
+		(shape output)
+		(at 52.07 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71b46b5e-0b77-4a61-b296-8ea05dc2408e")
+	)
 )
