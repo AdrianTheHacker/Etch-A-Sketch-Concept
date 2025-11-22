@@ -13,10 +13,10 @@ In no particular order, the requirements are as follows:
 *Note that the rate in which an input is processed is independent of the rate in which the screen will be updating.
 
 ## Specifications
-[1] E-Ink display capable of displaying 3 different colours.
-[1] Single button for cycling between colours.
-[2] E-Ink screen uses effective partial updating algorithm for reducing.
-[3] Two potentiometers for reading user inputs.
-[4] PCB has width of 100mm and length of 77mm.
-[5/6] PCB contains a [pre-certified WiFi module](https://www.adafruit.com/product/4201).
-[5/6] Desktop app for managing drawing sessions and saving drawing state.
+* [1] E-Ink display capable of displaying 3 different colours.
+* [1] Single button for cycling between colours.
+* [2] E-Ink screen uses effective partial updating algorithm for reducing.
+* [3] Two potentiometers for reading user inputs.
+* [4] PCB has width of 100mm and length of 77mm.
+* [5/6] PCB contains a [pre-certified WiFi module](https://www.adafruit.com/product/4201).
+* [5/6] Desktop app for managing drawing sessions and saving drawing state.
