@@ -1,0 +1,234 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0ea7de92-e138-4a6c-b193-fca6869c3a12")
+	(paper "A4")
+	(title_block
+		(title "Etchasketch System Layout")
+		(rev "1")
+		(company "Alumapower")
+	)
+	(lib_symbols)
+	(sheet
+		(at 115.57 85.09)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "067dac4b-279d-4cde-ba9f-e5c950414682")
+		(property "Sheetname" "Processor"
+			(at 115.57 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "processor.kicad_sch"
+			(at 115.57 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 76.2)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "5c80e7a0-2fc8-469f-b7eb-810d0b40b08d")
+		(property "Sheetname" "display"
+			(at 194.31 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 194.31 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 104.14)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "68b59efc-50f7-4c9f-9221-1f98d99d79a4")
+		(property "Sheetname" "Controls"
+			(at 194.31 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controls.kicad_sch"
+			(at 194.31 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 88.9)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "70c0b45f-7fa0-4609-89ad-75dccab319b6")
+		(property "Sheetname" "Connectivity"
+			(at 53.34 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectivity.kicad_sch"
+			(at 53.34 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 52.07)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 72 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "ba769e44-f8cf-4eba-a81c-896c4be00b00")
+		(property "Sheetname" "Power"
+			(at 127 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 127 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
