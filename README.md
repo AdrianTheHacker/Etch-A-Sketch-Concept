@@ -48,6 +48,7 @@ Sorted by sub-system.
 - [1x] [CR2032 Connector](https://www.mouser.ca/ProductDetail/Renata/SMTU2032-C?qs=UxeAxwACbqkmlMDdDbz%2FoA%3D%3D)
 - [1x] [Power on LED Green](https://www.mouser.ca/ProductDetail/ams-OSRAM/KT-EELP41.12-S2U1-25-2X4X-5-R18?qs=sGAEpiMZZMvVL5Kk7ZYykaXDR74jB6yftoFsk4g727SHxqbUeiiZww%3D%3D)
 - [1x] [Resistor 100Ω (for LED)](https://www.mouser.ca/ProductDetail/TE-Connectivity-Holsworthy/RT73F1J100RBTD?qs=sGAEpiMZZMtlubZbdhIBIOStsStSd9IEZF4WybNbkN0%3D)
+- [1x] [Ceramic capacitor 10uF](https://www.mouser.ca/ProductDetail/KYOCERA-AVX/0603YD106MAT2A?qs=%252BdQmOuGyFcGTGabFXpuZrg%3D%3D)
 
 ### Display
 [Screen's circuit diagram](https://cdn-shop.adafruit.com/product-files/6393/P6393+C22273-001_datasheet_ZJY296152-0266EABMFGN-R.pdf)
