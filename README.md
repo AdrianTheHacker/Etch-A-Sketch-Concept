@@ -44,7 +44,10 @@ Sorted by sub-system.
 - [1x] [Pushbutton](https://www.mouser.ca/ProductDetail/Soldered/101111?qs=%252BXxaIXUDbq05T1Vr5nLouw%3D%3D)
 
 ### Power
-- The battery and switches and voltage protection
+- [1x] [CR2032 Battery](https://www.mouser.ca/ProductDetail/Murata-Electronics/CR2032?qs=gTYE2QTfZfQ%2FQrgScp89FQ%3D%3D)
+- [1x] [CR2032 Connector](https://www.mouser.ca/ProductDetail/Renata/SMTU2032-C?qs=UxeAxwACbqkmlMDdDbz%2FoA%3D%3D)
+- [1x] [Power on LED Green](https://www.mouser.ca/ProductDetail/ams-OSRAM/KT-EELP41.12-S2U1-25-2X4X-5-R18?qs=sGAEpiMZZMvVL5Kk7ZYykaXDR74jB6yftoFsk4g727SHxqbUeiiZww%3D%3D)
+- [1x] [Resistor 100Ω (for LED)](https://www.mouser.ca/ProductDetail/TE-Connectivity-Holsworthy/RT73F1J100RBTD?qs=sGAEpiMZZMtlubZbdhIBIOStsStSd9IEZF4WybNbkN0%3D)
 
 ### Display
 - Screen, controls for screen (pots and buttons)
