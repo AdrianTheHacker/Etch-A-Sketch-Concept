@@ -1,0 +1,81 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP RA73F1J10KBTDF
+D Configuration Features: Number of Resistors 1 | Dimensions: Product Height .017 INCH | Product Width .031 INCH | Product Length .061 INCH | Product Width .8 MM | Product Length 1.55 MM | Product Height .43 MM | Electrical Characteristics: Power Rating .5 WATT | Resistance Value 10K OHM | Passive Component Tolerance .1 PCT | Resistance Class 1k  1M | Packaging Features: Packaging Method Tape & Reel | Product Type Features: Package Size Code 0630 | Element Type Thin Film | Resistor Type Precision Resis
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773270-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2-2176475-3&DocFormat=pdf
+$ENDCMP
+#
+$CMP KT_EELP41.12-S2U1-25-2X4X-5-R18
+D LED, InGaN on Sapphire, True Green, SMD, 0603 [1608 Metric], 5 mA, 2.5 V, 527 nm
+K
+F https://in.element14.com/ams-osram-group/kt-eelp41-12-s2u1-25-2x4x-5-r18/led-true-green-224mcd-527nm-130deg/dp/4540818
+$ENDCMP
+#
+$CMP SMTU2032-C
+D Coin Cell Battery Holders SMT HOLDER FOR CR2032
+K
+F https://www.mouser.co.uk/datasheet/2/346/SMTU2032-C-258020.pdf
+$ENDCMP
+#
+$CMP 0603YD106MAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT NEW GLOBAL PN KGM15CR51C106MT
+K
+F https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf
+$ENDCMP
+#
+$CMP MAJCH168BB7104KTEA01
+D MULTILAYER CERAMIC CAPACITORS[Multilayer Ceramic Capacitors (High dielectric type) for Automotive Powertrain and Safety (Cu external electrode products)]
+K
+F https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MAJCH168BB7104KTEA01
+$ENDCMP
+#
+$CMP LMK107BJ475KA-T
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF 10V X5R +/-10% 0603 Gen Purp
+K
+F 
+$ENDCMP
+#
+$CMP 06035A103JAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT .01UF    50V    5%        0603
+K
+F 
+$ENDCMP
+#
+$CMP 0603YA6R8CAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM15ACG1C6R8CT NEW GLOBAL PN 16V 6.8pF A 581-KGM15ACG1C6R8CT
+K
+F https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf
+$ENDCMP
+#
+$CMP 06031A200KAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 20pF C0G 0603 10% Tol
+K
+F https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf
+$ENDCMP
+#
+$CMP XT1312HHRXX32K76E
+D 32.768 kHz +/-20ppm Crystal 12pF 70 kOhms 2-SMD, No Lead , -40C ~ 85C
+K
+F https://www.vishay.com/docs/35071/xt13.pdf
+$ENDCMP
+#
+$CMP MCT0603MD3900BP500
+D Vishay Resistor Chip 0603
+K
+F http://www.vishay.com/docs/28705/mcx0x0xpro.pdf
+$ENDCMP
+#
+$CMP STM32G484QET6
+D STMICROELECTRONICS - STM32G484QET6 - ARM MCU, STM32 Family STM32G4 Series Microcontrollers, ARM Cortex-M4F, 32bit, 170 MHz, 512 KB
+K
+F https://www.st.com/resource/en/datasheet/stm32g484ce.pdf
+$ENDCMP
+#
+#End Doc Library

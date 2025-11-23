@@ -5,7 +5,7 @@
 	(uuid "0ea7de92-e138-4a6c-b193-fca6869c3a12")
 	(paper "A4")
 	(title_block
-		(title "Etchasketch System Layout")
+		(title "Etchasketch - System Diagram")
 		(rev "1")
 		(company "Alumapower")
 	)
@@ -16,15 +16,57 @@
 		(color 0 0 0 0)
 		(uuid "1412fb49-e7a0-4442-a787-42e633e77a86")
 	)
+	(junction
+		(at 179.07 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7374f0b8-1088-4719-9669-1f5366952e4a")
+	)
+	(junction
+		(at 179.07 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0ecc6f2-ec0b-4780-b5c0-44b8a1315897")
+	)
 	(bus
 		(pts
-			(xy 179.07 58.42) (xy 179.07 81.28)
+			(xy 179.07 74.93) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15601cbf-a9d4-4d02-8328-4bab50c66407")
+	)
+	(bus
+		(pts
+			(xy 179.07 58.42) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31e0eed3-9a5d-42da-8419-926d008be2ce")
+	)
+	(bus
+		(pts
+			(xy 166.37 91.44) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3288ae4b-3209-4f78-becb-7cfe6d65701d")
+	)
+	(bus
+		(pts
+			(xy 101.6 74.93) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b82a1c5-42cc-4e29-93cb-b7ea74613000")
 	)
 	(bus
 		(pts
@@ -38,7 +80,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 81.28) (xy 179.07 107.95)
+			(xy 179.07 81.28) (xy 179.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -55,6 +97,36 @@
 			(type default)
 		)
 		(uuid "80af4384-b961-4b23-8ea4-d5b125e74833")
+	)
+	(bus
+		(pts
+			(xy 179.07 91.44) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8253a2bb-ecdf-404e-a5b2-63d9cfecb7ba")
+	)
+	(bus
+		(pts
+			(xy 101.6 92.71) (xy 91.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938b4d4d-be82-450a-ba90-60021e4ed73e")
+	)
+	(bus
+		(pts
+			(xy 179.07 74.93) (xy 101.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a18deee-7b57-4c0c-9cc4-1eaf0f55a0df")
 	)
 	(bus
 		(pts

@@ -1,9 +1,0 @@
-Manufacturer=ams OSRAM
-PartNumber=KT EELP41.12-S2U1-25-2X4X-5-R18
-PartCategory=LED
-PackageCategory=Other
-PinCount=2
-Version=1.2
-Released=2024-09-19 10:12:29
-Downloaded=2025-11-22 05:19:28
-3D=Y
