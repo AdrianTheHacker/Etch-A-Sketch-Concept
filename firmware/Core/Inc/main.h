@@ -77,6 +77,18 @@ void Error_Handler(void);
 #define POT_1_GPIO_Port GPIOD
 #define POT_2_Pin GPIO_PIN_13
 #define POT_2_GPIO_Port GPIOD
+#define WIFI_CS_Pin GPIO_PIN_15
+#define WIFI_CS_GPIO_Port GPIOA
+#define WIFI_SCK_Pin GPIO_PIN_10
+#define WIFI_SCK_GPIO_Port GPIOC
+#define WIFI_MISO_Pin GPIO_PIN_11
+#define WIFI_MISO_GPIO_Port GPIOC
+#define WIFI_MOSI_Pin GPIO_PIN_12
+#define WIFI_MOSI_GPIO_Port GPIOC
+#define WIFI_BUSY_Pin GPIO_PIN_5
+#define WIFI_BUSY_GPIO_Port GPIOG
+#define WIFI_RESET_Pin GPIO_PIN_6
+#define WIFI_RESET_GPIO_Port GPIOG
 
 /* USER CODE BEGIN Private defines */
 
