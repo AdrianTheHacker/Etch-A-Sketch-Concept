@@ -5,6 +5,7 @@
 	(uuid "ea81e267-beca-4e44-8c54-8b483997cfa8")
 	(paper "A4")
 	(title_block
+		(rev "1")
 		(company "AlumaPower")
 	)
 	(lib_symbols)

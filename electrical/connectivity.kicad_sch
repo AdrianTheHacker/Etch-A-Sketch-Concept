@@ -5,12 +5,320 @@
 	(uuid "b9d691b9-ee13-4512-a7bd-9ccd0c692959")
 	(paper "A4")
 	(title_block
+		(title "Etchasketch - Connectivity")
+		(rev "1")
 		(company "AlumaPower")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "custom:wifi_module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at -1.27 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
+				(at 1.2699 8.89 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-airlift-breakout.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESP32 WiFi Module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "wifi_module_0_1"
+				(rectangle
+					(start -16.51 7.62)
+					(end 16.51 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "wifi_module_1_1"
+				(pin power_in line
+					(at -13.97 -8.89 90)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(name "3V0_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -8.89 90)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -8.89 90)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name "BUSY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -8.89 90)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 8.89 -8.89 90)
+					(length 2.54)
+					(name "GPIO_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 11.43 -8.89 90)
+					(length 2.54)
+					(name "UART_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 13.97 -8.89 90)
+					(length 2.54)
+					(name "UART_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 146.05 74.93)
+		(uuid "f5349d37-547b-4e74-86fb-d19aa7b1c05a")
+	)
 	(bus_entry
-		(at 49.53 68.58)
+		(at 118.11 25.4)
 		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192ecae5-7086-4761-bd3b-35a501a3d8e1")
+	)
+	(bus_entry
+		(at 124.46 25.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5a2ec7-4395-4973-a9c5-04147b07196e")
+	)
+	(bus_entry
+		(at 59.69 27.94)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -18,8 +326,44 @@
 		(uuid "4e81609a-0af1-4bef-b9c8-566b53a7ec24")
 	)
 	(bus_entry
-		(at 49.53 74.93)
+		(at 105.41 25.4)
 		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53206c8d-8c89-4b94-9f9d-282b9e4c66aa")
+	)
+	(bus_entry
+		(at 99.06 25.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b2c7f1-d183-472b-8c84-a3338e7346f1")
+	)
+	(bus_entry
+		(at 111.76 25.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc636cc-60ad-4ee9-9460-7a92864b92cc")
+	)
+	(bus_entry
+		(at 130.81 25.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafe24fa-a07b-49fa-a9b6-972eda2923e9")
+	)
+	(bus_entry
+		(at 53.34 27.94)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -28,7 +372,67 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 74.93) (xy 49.53 74.93)
+			(xy 127 27.94) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a36b065-7824-4523-af68-4b5f1081d385")
+	)
+	(bus
+		(pts
+			(xy 118.11 25.4) (xy 124.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b85df51-25e2-4135-b775-de076cb124e8")
+	)
+	(wire
+		(pts
+			(xy 114.3 27.94) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2ddf79-7ad4-4b04-9a40-e3a5b7900ae2")
+	)
+	(wire
+		(pts
+			(xy 120.65 27.94) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e58007-de18-4013-a625-3437314c0cb4")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 146.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3736a5c1-3788-4af5-b7cd-e58bc60c5850")
+	)
+	(bus
+		(pts
+			(xy 124.46 25.4) (xy 130.81 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f35d215-df89-4616-a791-1549729346d5")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 53.34 27.94)
 		)
 		(stroke
 			(width 0)
@@ -36,9 +440,79 @@
 		)
 		(uuid "437cf120-4796-4b43-adbe-54aa9dd6f3d7")
 	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438de4d2-5d57-466a-a499-e133aceb1533")
+	)
 	(bus
 		(pts
-			(xy 52.07 77.47) (xy 52.07 86.36)
+			(xy 99.06 25.4) (xy 105.41 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6606ab67-8859-4d2f-a20e-d4afd758dbdd")
+	)
+	(wire
+		(pts
+			(xy 101.6 27.94) (xy 101.6 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4d2b09-1f47-43a1-8f7c-7bbc8e282fdb")
+	)
+	(wire
+		(pts
+			(xy 107.95 27.94) (xy 107.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed631bd-a924-4cae-8e44-e0f79d70e42b")
+	)
+	(wire
+		(pts
+			(xy 128.27 90.17) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f6bb0c-7ddc-45eb-9501-ed3aa556e3ea")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 146.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8661fae8-e87d-4a1f-ad28-5323389d657b")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 146.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bfe82e-10d5-4763-ad0e-0a2a3b155f0d")
+	)
+	(bus
+		(pts
+			(xy 50.8 25.4) (xy 41.91 25.4)
 		)
 		(stroke
 			(width 0)
@@ -48,7 +522,37 @@
 	)
 	(bus
 		(pts
-			(xy 52.07 71.12) (xy 52.07 77.47)
+			(xy 83.82 25.4) (xy 99.06 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919c628a-1a60-4912-8094-76619b12bb86")
+	)
+	(bus
+		(pts
+			(xy 105.41 25.4) (xy 111.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f4d987-ca22-4344-b798-481575a4e3e8")
+	)
+	(wire
+		(pts
+			(xy 128.27 77.47) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f42844a-0930-417d-9adb-0f23b5524038")
+	)
+	(bus
+		(pts
+			(xy 57.15 25.4) (xy 50.8 25.4)
 		)
 		(stroke
 			(width 0)
@@ -58,7 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 68.58) (xy 49.53 68.58)
+			(xy 59.69 41.91) (xy 59.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -66,8 +570,158 @@
 		)
 		(uuid "a20bb7f1-6a6a-4672-b2b2-1c1d96ba1040")
 	)
+	(bus
+		(pts
+			(xy 111.76 25.4) (xy 118.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6e210d-be59-4b7a-a4e6-ce984740a52f")
+	)
+	(wire
+		(pts
+			(xy 133.35 27.94) (xy 133.35 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1d7537-5d41-4fdd-8e53-802335a917d0")
+	)
+	(wire
+		(pts
+			(xy 128.27 82.55) (xy 146.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28e3cfd-40bb-440f-aab7-fc697a03374e")
+	)
+	(wire
+		(pts
+			(xy 128.27 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b789b5-6f03-4f99-af9f-4c575c40089b")
+	)
+	(label "GND"
+		(at 128.27 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "118f36a8-162f-4187-b66a-9bbad1711447")
+	)
+	(label "WIFI_CS"
+		(at 128.27 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c352898-daec-49ca-9d66-ff7ded4a092e")
+	)
 	(label "3V0"
-		(at 35.56 68.58 0)
+		(at 128.27 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eb1ab4d-2b78-4b12-a347-5c4fe0faef79")
+	)
+	(label "WIFI_MOSI"
+		(at 128.27 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fe625ab-f133-4f2c-8854-578ae48b50c7")
+	)
+	(label "WIFI_BUSY"
+		(at 128.27 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41d3f88b-26c4-4432-9491-426ac722f88c")
+	)
+	(label "WIFI_MISO"
+		(at 128.27 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45678ceb-8b45-4e37-b3b6-d81a7e9c3e39")
+	)
+	(label "WIFI_CS"
+		(at 120.65 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60c9378c-d078-44c2-b1ef-5bad9731f728")
+	)
+	(label "WIFI_RESET"
+		(at 128.27 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c5055d4-b1c8-42fa-b04e-38fbf4bf322a")
+	)
+	(label "WIFI_SCK"
+		(at 101.6 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bb7dc97-83b3-45da-8cb8-feb04d64493b")
+	)
+	(label "WIFI_BUSY"
+		(at 127 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e7d5d6c-3f9a-4237-a50c-67162e0323de")
+	)
+	(label "WIFI_SCK"
+		(at 128.27 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1440ada-b892-407d-90f7-d00a424ad898")
+	)
+	(label "3V0"
+		(at 59.69 41.91 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -77,7 +731,7 @@
 		(uuid "ca5bfd96-01ec-4b8d-b75e-1eb975edec6c")
 	)
 	(label "GND"
-		(at 35.56 74.93 0)
+		(at 53.34 41.91 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -86,9 +740,39 @@
 		)
 		(uuid "d492bcaf-14e8-4790-a76d-eb33a81511a3")
 	)
+	(label "WIFI_RESET"
+		(at 133.35 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f0b238-edbb-46d6-87a8-eedbba0d9f0a")
+	)
+	(label "WIFI_MOSI"
+		(at 114.3 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3d01e83-cc68-414c-946a-ebd44d5c3616")
+	)
+	(label "WIFI_MISO"
+		(at 107.95 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2232877-63e7-4203-8610-921cb369e584")
+	)
 	(hierarchical_label "{BATTERY_POWER}"
 		(shape output)
-		(at 52.07 86.36 270)
+		(at 41.91 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -96,5 +780,116 @@
 			(justify right)
 		)
 		(uuid "71b46b5e-0b77-4a61-b296-8ea05dc2408e")
+	)
+	(hierarchical_label "{CONNECTIVITY}"
+		(shape bidirectional)
+		(at 83.82 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bad62ca6-f4e8-4514-b9b8-55aaa81d08d9")
+	)
+	(symbol
+		(lib_id "custom:wifi_module")
+		(at 154.94 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a908f97-0e4e-4225-bb4d-da371b59b8ed")
+		(property "Reference" "U1"
+			(at 163.576 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom:esp32_wifi_module"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-airlift-breakout.pdf"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESP32 WiFi Module"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2be7bdda-4460-435e-831b-1c8e54fe9ba1")
+		)
+		(pin "9"
+			(uuid "f75fbd5a-2852-4924-b2f9-5dffced03cde")
+		)
+		(pin "10"
+			(uuid "bb3f002e-4e70-4479-9b02-2e768a3eea87")
+		)
+		(pin "1"
+			(uuid "d5f72a69-0e53-4e3d-ae3c-9790a05a5e24")
+		)
+		(pin "4"
+			(uuid "61439b48-5c76-4dfd-8420-afd3a1e7eab9")
+		)
+		(pin "7"
+			(uuid "cf37fd0e-8763-43d9-987a-cfb74a119f8c")
+		)
+		(pin "5"
+			(uuid "077fb19e-6505-46bc-ba49-8f2114a008a8")
+		)
+		(pin "11"
+			(uuid "a5758bc1-06fd-4f79-a361-0997a839599c")
+		)
+		(pin "6"
+			(uuid "6e845e51-7534-4642-9e37-6ff6e1bea3f9")
+		)
+		(pin "3"
+			(uuid "c2cbd910-3de3-4f00-ab53-f007ef6b5c42")
+		)
+		(pin "8"
+			(uuid "a3b32ab7-4903-4e7b-87a3-310ed4d390af")
+		)
+		(pin "12"
+			(uuid "caee8361-e2ef-4675-b606-b042f1f82c22")
+		)
+		(instances
+			(project ""
+				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12/70c0b45f-7fa0-4609-89ad-75dccab319b6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

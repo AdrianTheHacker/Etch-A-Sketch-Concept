@@ -96,4 +96,10 @@ K
 F https://www.ckswitches.com/media/1462/pts125.pdf
 $ENDCMP
 #
+$CMP 14120416050000
+D har-flexicon MTV-4 T44 350pcs
+K
+F https://g.componentsearchengine.com/Datasheets/0/17149101.pdf
+$ENDCMP
+#
 #End Doc Library
