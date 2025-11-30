@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "b9d691b9-ee13-4512-a7bd-9ccd0c692959")
 	(paper "A4")
+	(title_block
+		(company "AlumaPower")
+	)
 	(lib_symbols)
 	(bus_entry
 		(at 49.53 68.58)

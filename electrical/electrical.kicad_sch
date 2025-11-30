@@ -7,7 +7,7 @@
 	(title_block
 		(title "Etchasketch - System Diagram")
 		(rev "1")
-		(company "Alumapower")
+		(company "AlumaPower")
 	)
 	(lib_symbols)
 	(junction

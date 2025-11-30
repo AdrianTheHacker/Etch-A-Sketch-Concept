@@ -57,6 +57,26 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ADXL_CS_Pin GPIO_PIN_12
+#define ADXL_CS_GPIO_Port GPIOB
+#define ADXL_SCL_Pin GPIO_PIN_13
+#define ADXL_SCL_GPIO_Port GPIOB
+#define ADXL_SDO_Pin GPIO_PIN_14
+#define ADXL_SDO_GPIO_Port GPIOB
+#define ADXL_SDI_Pin GPIO_PIN_15
+#define ADXL_SDI_GPIO_Port GPIOB
+#define ADXL_INT1_Pin GPIO_PIN_8
+#define ADXL_INT1_GPIO_Port GPIOD
+#define ADXL_INT2_Pin GPIO_PIN_9
+#define ADXL_INT2_GPIO_Port GPIOD
+#define BUTTON_1_Pin GPIO_PIN_10
+#define BUTTON_1_GPIO_Port GPIOD
+#define BUTTON_2_Pin GPIO_PIN_11
+#define BUTTON_2_GPIO_Port GPIOD
+#define POT_1_Pin GPIO_PIN_12
+#define POT_1_GPIO_Port GPIOD
+#define POT_2_Pin GPIO_PIN_13
+#define POT_2_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
 
