@@ -78,4 +78,22 @@ K
 F https://www.st.com/resource/en/datasheet/stm32g484ce.pdf
 $ENDCMP
 #
+$CMP ADXL345BCCZ
+D ADXL345BCCZ, Accelerometer 3-Axis, 0.1  3200 Hz 2  3.6 V, 14-Pin LGA
+K
+F http://componentsearchengine.com/Datasheets/1/ADXL345BCCZ.pdf
+$ENDCMP
+#
+$CMP TACL105K010FTA
+D Tantalum Capacitors - Solid SMD 10V 1uF 10%
+K
+F https://componentsearchengine.com/Datasheets/1/TACL105K010FTA.pdf
+$ENDCMP
+#
+$CMP PTS125SM73SMTR21M_LFS
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+K
+F https://www.ckswitches.com/media/1462/pts125.pdf
+$ENDCMP
+#
 #End Doc Library

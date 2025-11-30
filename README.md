@@ -41,7 +41,7 @@ Sorted by sub-system.
 - [1x] [ST-Link debugger connector (LibraryLoader didn't work)](https://www.digikey.ca/en/products/detail/samtec-inc/FTSH-107-01-F-DV-K/2650001?gclsrc=aw.ds&gad_source=1&gad_campaignid=17336435733&gbraid=0AAAAADrbLlhq2OpxPLWAyTiYmFA62M8dN&gclid=CjwKCAiAuIDJBhBoEiwAxhgyFisN6L1oPr3EJV2HRn68eJmM_TwOISw0mEKeCH2g0jNCqzJe0RDupRoCn4cQAvD_BwE)
 - [1x] [STM32G484QET6](https://www.mouser.ca/ProductDetail/STMicroelectronics/STM32G484QET6?qs=uwxL4vQweFOef65amZQ%252BrA%3D%3D)
 - [1x] [Switch (No CAD Found)](https://www.mouser.ca/ProductDetail/EAO/19.03201.01?qs=sGAEpiMZZMvYP4PlKbaZF5wNPmZ5WaKxFLnfzSV3PvVIFzsx%252BXULUg%3D%3D)
-- [1x] [Pushbutton (No CAD Found)](https://www.mouser.ca/ProductDetail/Soldered/101111?qs=%252BXxaIXUDbq05T1Vr5nLouw%3D%3D)
+- [1x] [Pushbutton](https://www.mouser.ca/ProductDetail/CK/PTS125SM73SMTR21M-LFS?qs=t7xnP681wgVp4NpaUUvA%252Bw%3D%3D)
 
 ### Power
 - [1x] [CR2032 Battery](https://www.mouser.ca/ProductDetail/Murata-Electronics/CR2032?qs=gTYE2QTfZfQ%2FQrgScp89FQ%3D%3D)
@@ -66,7 +66,7 @@ Sorted by sub-system.
 - [1x] [Tantalum capacitor 1uF](https://www.mouser.ca/ProductDetail/KYOCERA-AVX/TACL105K010FTA?qs=sGAEpiMZZMtZ1n0r9vR22f0Jgorj1M1u11EugVUWwzY%3D)
 - [2x] [Potentiometer 10KΩ (Create Manually)](https://www.adafruit.com/product/3395)
 - [2x] [Potentiometer cap](https://www.adafruit.com/product/2057)
-- [2x] [Pushbutton (Create Manually)](https://www.adafruit.com/product/367)
+- [2x] [Pushbutton](https://www.mouser.ca/ProductDetail/CK/PTS125SM73SMTR21M-LFS?qs=t7xnP681wgVp4NpaUUvA%252Bw%3D%3D)
 - [2x] [Resistor 10kΩ](https://www.mouser.ca/ProductDetail/TE-Connectivity-Holsworthy/RA73F1J10KBTDF?qs=sGAEpiMZZMtlubZbdhIBIJBDgjsVQBFl0L0uqFOGEF8%3D)
 
 ### Connectivity
