@@ -57,6 +57,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define SCREEN_SCL_Pin GPIO_PIN_2
+#define SCREEN_SCL_GPIO_Port GPIOE
+#define SCREEN_BUSY_Pin GPIO_PIN_3
+#define SCREEN_BUSY_GPIO_Port GPIOE
+#define SCREEN_CS_Pin GPIO_PIN_4
+#define SCREEN_CS_GPIO_Port GPIOE
+#define SCREEN_D_C_Pin GPIO_PIN_5
+#define SCREEN_D_C_GPIO_Port GPIOE
+#define SCREEN_SDA_Pin GPIO_PIN_6
+#define SCREEN_SDA_GPIO_Port GPIOE
+#define SCREEN_RST_Pin GPIO_PIN_13
+#define SCREEN_RST_GPIO_Port GPIOC
 #define ADXL_CS_Pin GPIO_PIN_12
 #define ADXL_CS_GPIO_Port GPIOB
 #define ADXL_SCL_Pin GPIO_PIN_13

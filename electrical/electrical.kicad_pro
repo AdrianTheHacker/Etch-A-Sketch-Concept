@@ -416,7 +416,7 @@
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "error",
+      "label_dangling": "warning",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
@@ -623,7 +623,7 @@
     ],
     [
       "5c80e7a0-2fc8-469f-b7eb-810d0b40b08d",
-      "display"
+      "Display"
     ],
     [
       "68b59efc-50f7-4c9f-9221-1f98d99d79a4",

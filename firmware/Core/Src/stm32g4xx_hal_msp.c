@@ -302,6 +302,31 @@ void HAL_SPI_MspInit(SPI_HandleTypeDef* hspi)
 
     /* USER CODE END SPI3_MspInit 1 */
   }
+  else if(hspi->Instance==SPI4)
+  {
+    /* USER CODE BEGIN SPI4_MspInit 0 */
+
+    /* USER CODE END SPI4_MspInit 0 */
+    /* Peripheral clock enable */
+    __HAL_RCC_SPI4_CLK_ENABLE();
+
+    __HAL_RCC_GPIOE_CLK_ENABLE();
+    /**SPI4 GPIO Configuration
+    PE2     ------> SPI4_SCK
+    PE4     ------> SPI4_NSS
+    PE6     ------> SPI4_MOSI
+    */
+    GPIO_InitStruct.Pin = SCREEN_SCL_Pin|SCREEN_CS_Pin|SCREEN_SDA_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    GPIO_InitStruct.Alternate = GPIO_AF5_SPI4;
+    HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+
+    /* USER CODE BEGIN SPI4_MspInit 1 */
+
+    /* USER CODE END SPI4_MspInit 1 */
+  }
 
 }
 
@@ -354,6 +379,25 @@ void HAL_SPI_MspDeInit(SPI_HandleTypeDef* hspi)
     /* USER CODE BEGIN SPI3_MspDeInit 1 */
 
     /* USER CODE END SPI3_MspDeInit 1 */
+  }
+  else if(hspi->Instance==SPI4)
+  {
+    /* USER CODE BEGIN SPI4_MspDeInit 0 */
+
+    /* USER CODE END SPI4_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_SPI4_CLK_DISABLE();
+
+    /**SPI4 GPIO Configuration
+    PE2     ------> SPI4_SCK
+    PE4     ------> SPI4_NSS
+    PE6     ------> SPI4_MOSI
+    */
+    HAL_GPIO_DeInit(GPIOE, SCREEN_SCL_Pin|SCREEN_CS_Pin|SCREEN_SDA_Pin);
+
+    /* USER CODE BEGIN SPI4_MspDeInit 1 */
+
+    /* USER CODE END SPI4_MspDeInit 1 */
   }
 
 }

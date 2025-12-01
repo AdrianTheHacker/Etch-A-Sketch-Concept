@@ -102,4 +102,64 @@ K
 F https://g.componentsearchengine.com/Datasheets/0/17149101.pdf
 $ENDCMP
 #
+$CMP 687124149022
+D WR-FPC 0.50mm SMT Horiz. Bot. Contact Hinge type WR-FPC 0.50mm 24pins Hinge type SMT Horizontal Bottom Contact
+K
+F https://www.we-online.com/components/products/download/687124149022+%28rev1%29.pdf
+$ENDCMP
+#
+$CMP MAJCT168BB7105KTEA01
+D MULTILAYER CERAMIC CAPACITORS[Multilayer Ceramic Capacitors (High dielectric type) for Automotive Powertrain and Safety (Cu external electrode products)]
+K
+F https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MAJCT168BB7105KTEA01
+$ENDCMP
+#
+$CMP MBR0530T1G
+D Guardring for Stress Protection; Low Forward Voltage; 125 C Operating Junction Temperature; Epoxy Meets UL94, VO at 1/8"; Package Designed for Optimal Automated Board Assembly Mechanical Characteristics:; Reel Options: MBR0530T1 = 3,000 per 7" reel/8 mm tape MBR0530T3 = 10,000 per 13" reel/8 mm tape; Device Marking: B3; Polarity Designator: Cathode Band; Weight: 11.7 mg (approximately); Case: Epoxy, Molded; Finish: All External Surfaces Corrosion Resistant and Terminal Leads are Readily Solderable; Lead and
+K
+F https://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF
+$ENDCMP
+#
+$CMP NX3008NBKS,115
+D MOSFET 30V 350 MA DUAL N-CH TRENCH MOSFET
+K
+F https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf
+$ENDCMP
+#
+$CMP CR01005AFW-1500GAS
+D ResA-AS 01005 150R 1% 31mW TC200
+K
+F https://bourns.com/docs/product-datasheets/cr-a-as.pdf
+$ENDCMP
+#
+$CMP ERA-3AED102V
+D Thin Film Resistors - SMD 0603 1000ohms 25ppm 0.5% AEC-Q200
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP ERA-3APB152V
+D Metal Thin Film Chip Resistor, 0603, 0.1W
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf
+$ENDCMP
+#
+$CMP BMC-Q1E0000H
+D 800 mA, .04 ohm DC Resistance, 0402, 1 mm [.039 in] Length, .5 mm [.019 in] Width, .5 mm [.019 in] Height, Sigma BMC-Q
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773178-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2176742-1&DocFormat=pdf
+$ENDCMP
+#
+$CMP RT73F1J100RBTD
+D SMD Chip Resistor, 100 ohm, +/- 0.1%, 200 mW, 0603 [1608 Metric], Thick Film, High Precision
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773450&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=9-2176757-7
+$ENDCMP
+#
+$CMP CX3225FB24000C0FZZH1
+D Crystals 3.2x2.5mm 24MHz 7pF
+K
+F https://ele.kyocera.com/assets/products/crystal-device/specification/CX3225FB_7pF.pdf
+$ENDCMP
+#
 #End Doc Library

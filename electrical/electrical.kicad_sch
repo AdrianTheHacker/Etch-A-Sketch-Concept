@@ -30,6 +30,16 @@
 	)
 	(bus
 		(pts
+			(xy 101.6 104.14) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00afd5a6-6ff5-437e-aed6-a0799bc6bc7c")
+	)
+	(bus
+		(pts
 			(xy 166.37 106.68) (xy 173.99 106.68)
 		)
 		(stroke
@@ -37,6 +47,16 @@
 			(type default)
 		)
 		(uuid "0656532c-dfb9-4b3d-8e63-c4101a51eb80")
+	)
+	(bus
+		(pts
+			(xy 101.6 106.68) (xy 115.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1109662f-cbd4-412c-a0fc-9c0c2869a7c8")
 	)
 	(bus
 		(pts
@@ -100,6 +120,16 @@
 	)
 	(bus
 		(pts
+			(xy 186.69 91.44) (xy 186.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798c4b14-fca4-4ebe-bd30-17c7a4f45e03")
+	)
+	(bus
+		(pts
 			(xy 179.07 78.74) (xy 194.31 78.74)
 		)
 		(stroke
@@ -107,6 +137,26 @@
 			(type default)
 		)
 		(uuid "80af4384-b961-4b23-8ea4-d5b125e74833")
+	)
+	(bus
+		(pts
+			(xy 91.44 104.14) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81db27d5-b81d-4177-8aed-ee670d8c08e9")
+	)
+	(bus
+		(pts
+			(xy 186.69 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3f1a85-da71-4b8f-8642-146bd1097937")
 	)
 	(bus
 		(pts
@@ -147,6 +197,16 @@
 			(type default)
 		)
 		(uuid "ab5a1ae5-aaf0-42b4-9f90-fa8ca8cce2f0")
+	)
+	(bus
+		(pts
+			(xy 194.31 91.44) (xy 186.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9b5e3b-3c54-4a3f-962d-35f5e562986c")
 	)
 	(bus
 		(pts
@@ -203,7 +263,7 @@
 				(justify left top)
 			)
 		)
-		(pin "{BATTERY_POWER}" output
+		(pin "{BATTERY_POWER}" passive
 			(at 166.37 87.63 0)
 			(uuid "7e47d7ae-c1f9-4283-bd57-df72c8279e7f")
 			(effects
@@ -213,9 +273,29 @@
 				(justify right)
 			)
 		)
-		(pin "{CONTROLS}" bidirectional
+		(pin "{CONTROLS}" passive
 			(at 166.37 106.68 0)
 			(uuid "2d927f4b-1544-4da0-82d4-b4277bfffdca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{CONNECTIVITY}" passive
+			(at 115.57 106.68 180)
+			(uuid "85e570fb-5b1d-4eed-9093-8b5626fe74d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SCREEN_INTERFACE}" passive
+			(at 166.37 96.52 0)
+			(uuid "e0b58eba-9a44-4f6c-ab96-a442ccb67644")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,7 +328,7 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "5c80e7a0-2fc8-469f-b7eb-810d0b40b08d")
-		(property "Sheetname" "display"
+		(property "Sheetname" "Display"
 			(at 194.31 75.4884 0)
 			(effects
 				(font
@@ -266,9 +346,19 @@
 				(justify left top)
 			)
 		)
-		(pin "{BATTERY_POWER}" output
+		(pin "{BATTERY_POWER}" passive
 			(at 194.31 78.74 180)
 			(uuid "1ac40841-1d22-464f-be67-7ef420bb4959")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SCREEN_INTERFACE}" passive
+			(at 194.31 91.44 180)
+			(uuid "fb3ac505-2c2f-461e-831e-6c89bb781746")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,7 +409,7 @@
 				(justify left top)
 			)
 		)
-		(pin "{BATTERY_POWER}" output
+		(pin "{BATTERY_POWER}" passive
 			(at 194.31 106.68 180)
 			(uuid "d3e7915e-d70b-4d77-8035-9d75fb814830")
 			(effects
@@ -329,7 +419,7 @@
 				(justify left)
 			)
 		)
-		(pin "{CONTROLS}" bidirectional
+		(pin "{CONTROLS}" passive
 			(at 194.31 110.49 180)
 			(uuid "25126c5d-93fa-4888-8d49-9c7670dcb7ba")
 			(effects
@@ -382,9 +472,19 @@
 				(justify left top)
 			)
 		)
-		(pin "{BATTERY_POWER}" output
+		(pin "{BATTERY_POWER}" passive
 			(at 91.44 91.44 0)
 			(uuid "177ef9a8-bf46-4b58-a167-972406e451a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{CONNECTIVITY}" passive
+			(at 91.44 104.14 0)
+			(uuid "c891f6b0-5a8a-420c-9a70-afe15d6d25ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -435,7 +535,7 @@
 				(justify left top)
 			)
 		)
-		(pin "{BATTERY_POWER}" output
+		(pin "{BATTERY_POWER}" passive
 			(at 153.67 54.61 0)
 			(uuid "8b2439e8-dd0d-4ced-8447-9f00cf01a92b")
 			(effects
