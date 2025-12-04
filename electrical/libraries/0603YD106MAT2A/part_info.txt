@@ -1,9 +1,0 @@
-Manufacturer=Kyocera AVX
-PartNumber=0603YD106MAT2A
-PartCategory=Capacitor
-PackageCategory=Capacitor Chip Non-polarised
-PinCount=2
-Version=1.2
-Released=2024-04-02 13:44:05
-Downloaded=2025-11-22 04:33:56
-3D=Y

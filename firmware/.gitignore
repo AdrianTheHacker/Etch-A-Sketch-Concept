@@ -1,0 +1,26 @@
+# Build artifacts
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+Debug/
+Release/
+
+# IDE-specific files (if applicable, e.g., for STM32CubeIDE)
+.settings/
+*.launch
+.project
+.cproject
+.mxproject
+.mxmetadata
+.mxinfo
+*.workspace
+
+# STM32CubeMX generated files (optional, depending on project structure)
+# Drivers/
+# Middlewares/
+
+# Other temporary files
+*~
+*.log
