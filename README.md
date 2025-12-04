@@ -40,7 +40,7 @@ Sorted by sub-system.
 - [1x] [ST-Link Debugger (STLINK-V3MINIE)](https://www.mouser.ca/ProductDetail/STMicroelectronics/STLINK-V3MINIE?qs=sGAEpiMZZMuqBwn8WqcFUipNgoezRlc4V9M2rz8Us%252BfpLfxQapoDpA%3D%3D)
 - [1x] [ST-Link debugger connector (LibraryLoader didn't work)](https://www.digikey.ca/en/products/detail/samtec-inc/FTSH-107-01-F-DV-K/2650001?gclsrc=aw.ds&gad_source=1&gad_campaignid=17336435733&gbraid=0AAAAADrbLlhq2OpxPLWAyTiYmFA62M8dN&gclid=CjwKCAiAuIDJBhBoEiwAxhgyFisN6L1oPr3EJV2HRn68eJmM_TwOISw0mEKeCH2g0jNCqzJe0RDupRoCn4cQAvD_BwE)
 - [1x] [STM32G484QET6](https://www.mouser.ca/ProductDetail/STMicroelectronics/STM32G484QET6?qs=uwxL4vQweFOef65amZQ%252BrA%3D%3D)
-- [1x] [Switch (No CAD Found)](https://www.mouser.ca/ProductDetail/EAO/19.03201.01?qs=sGAEpiMZZMvYP4PlKbaZF5wNPmZ5WaKxFLnfzSV3PvVIFzsx%252BXULUg%3D%3D)
+- [1x] [Switch (No CAD Found)](https://mou.sr/4ixqZ2V)
 - [1x] [Pushbutton](https://www.mouser.ca/ProductDetail/CK/PTS125SM73SMTR21M-LFS?qs=t7xnP681wgVp4NpaUUvA%252Bw%3D%3D)
 
 ### Power
