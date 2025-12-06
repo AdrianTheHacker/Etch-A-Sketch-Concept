@@ -14,23 +14,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U1"
+				(at -1.2701 8.89 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 1.2699 8.89 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "custom:esp32_wifi_module"
 				(at 0 0 0)
 				(effects
 					(font
@@ -110,7 +112,7 @@
 				(pin passive line
 					(at -8.89 -8.89 90)
 					(length 2.54)
-					(name "GND"
+					(name "VSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -291,6 +293,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "BATTERY_POWER"
+		(members "3V0" "GND")
+	)
+	(bus_alias "CONNECTIVITY"
+		(members "WIFI_SCK" "WIFI_MISO" "WIFI_MOSI" "WIFI_CS" "WIFI_BUSY" "WIFI_RESET")
+	)
+	(bus_alias "SCREEN_INTERFACE"
+		(members "SCREEN_SDA" "SCREEN_SCL" "SCREEN_CS" "SCREEN_D_C" "SCREEN_RST"
+			"SCREEN_BUSY"
+		)
+	)
 	(no_connect
 		(at 146.05 74.93)
 		(uuid "f5349d37-547b-4e74-86fb-d19aa7b1c05a")
@@ -341,15 +354,6 @@
 		(uuid "48a35619-4b34-4d4a-b958-00893e101c88")
 	)
 	(bus_entry
-		(at 54.61 29.21)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71396ad5-15b7-44b6-b426-b0692c716878")
-	)
-	(bus_entry
 		(at 111.76 25.4)
 		(size 2.54 2.54)
 		(stroke
@@ -359,13 +363,32 @@
 		(uuid "a573f90a-7530-4b5d-9f4b-b985c4f80270")
 	)
 	(bus_entry
-		(at 60.96 29.21)
-		(size -2.54 -2.54)
+		(at 43.18 25.4)
+		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f496f667-b77f-4cf4-861e-65de5d7ab756")
+		(uuid "a663e84c-bbd4-4ac5-bf86-70ff3e42e563")
+	)
+	(bus_entry
+		(at 48.26 25.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf45ab8f-f83c-48d1-bd6f-f5bb410499c7")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 50.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134579f9-c495-47ba-a477-f04d0f79c56d")
 	)
 	(bus
 		(pts
@@ -376,6 +399,16 @@
 			(type default)
 		)
 		(uuid "17728d75-0e56-4a45-add7-22cdfd06cd3c")
+	)
+	(wire
+		(pts
+			(xy 45.72 27.94) (xy 45.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8a82f7-cf6a-465a-95d0-9fd1c7965d08")
 	)
 	(bus
 		(pts
@@ -399,16 +432,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 43.18) (xy 54.61 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae408c4-fa26-4210-b482-159cb8c6b0cb")
-	)
-	(wire
-		(pts
 			(xy 128.27 92.71) (xy 146.05 92.71)
 		)
 		(stroke
@@ -429,6 +452,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d6b036-812f-4594-beed-e9f83f164d2b")
+	)
+	(wire
+		(pts
 			(xy 128.27 90.17) (xy 146.05 90.17)
 		)
 		(stroke
@@ -436,6 +469,16 @@
 			(type default)
 		)
 		(uuid "70f6bb0c-7ddc-45eb-9501-ed3aa556e3ea")
+	)
+	(bus
+		(pts
+			(xy 40.64 25.4) (xy 43.18 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83449cd0-9921-4165-9dd4-cbd68582a83a")
 	)
 	(wire
 		(pts
@@ -499,26 +542,6 @@
 	)
 	(bus
 		(pts
-			(xy 52.07 26.67) (xy 43.18 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1a29aba-20f1-43e5-80b4-6e6033bc35f2")
-	)
-	(wire
-		(pts
-			(xy 60.96 43.18) (xy 60.96 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb7d3d2b-bc24-4a30-9d2b-1f2c8055eb0d")
-	)
-	(bus
-		(pts
 			(xy 99.06 25.4) (xy 105.41 25.4)
 		)
 		(stroke
@@ -557,6 +580,16 @@
 		)
 		(uuid "d52c01a8-70d6-4409-b0f9-e00145261fd1")
 	)
+	(bus
+		(pts
+			(xy 43.18 25.4) (xy 48.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d865a92d-8fea-4a92-91c1-10979ca17e5c")
+	)
 	(wire
 		(pts
 			(xy 114.3 27.94) (xy 114.3 41.91)
@@ -569,13 +602,13 @@
 	)
 	(bus
 		(pts
-			(xy 58.42 26.67) (xy 52.07 26.67)
+			(xy 48.26 25.4) (xy 54.61 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9ecb5e7-9363-4d99-9b31-56fe1d5ad46a")
+		(uuid "eaa48b90-ec65-49ad-a91d-025e35b9c6eb")
 	)
 	(wire
 		(pts
@@ -608,6 +641,16 @@
 		(uuid "fe104d4e-0d09-425f-91c3-0de7149a1b2d")
 	)
 	(label "GND"
+		(at 50.8 35.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00a7c2ba-f5ea-4fa5-9ddd-4474273012e6")
+	)
+	(label "GND"
 		(at 128.27 77.47 0)
 		(effects
 			(font
@@ -627,6 +670,16 @@
 		)
 		(uuid "1e494bb9-f4bf-4add-8fc1-a092bca5c02a")
 	)
+	(label "VIN"
+		(at 120.65 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2071b9e3-c6ef-4ebe-acac-2d9e92d15117")
+	)
 	(label "WIFI_BUSY"
 		(at 120.65 41.91 90)
 		(effects
@@ -637,6 +690,16 @@
 		)
 		(uuid "2796091a-9001-41de-8310-76a32e308bb1")
 	)
+	(label "VIN"
+		(at 128.27 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27f56fe6-d7cf-4444-9382-be6d5b806d10")
+	)
 	(label "WIFI_CS"
 		(at 128.27 87.63 0)
 		(effects
@@ -646,16 +709,6 @@
 			(justify left bottom)
 		)
 		(uuid "2c352898-daec-49ca-9d66-ff7ded4a092e")
-	)
-	(label "3V0"
-		(at 128.27 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3eb1ab4d-2b78-4b12-a347-5c4fe0faef79")
 	)
 	(label "WIFI_MOSI"
 		(at 128.27 85.09 0)
@@ -687,6 +740,16 @@
 		)
 		(uuid "45678ceb-8b45-4e37-b3b6-d81a7e9c3e39")
 	)
+	(label "3V0"
+		(at 45.72 35.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50e369e4-77fd-46fd-ab9b-c4517f8c831f")
+	)
 	(label "WIFI_MOSI"
 		(at 107.95 41.91 90)
 		(effects
@@ -696,26 +759,6 @@
 			(justify left bottom)
 		)
 		(uuid "5364ba78-dadb-4c88-9aa0-b9e0ca2ffe45")
-	)
-	(label "3V0"
-		(at 60.96 43.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5770995c-1935-4c62-b5b7-98c8b1465454")
-	)
-	(label "GND"
-		(at 54.61 43.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60668f55-41f5-444f-903e-3848cc58b8ba")
 	)
 	(label "WIFI_CS"
 		(at 114.3 41.91 90)
@@ -736,6 +779,16 @@
 			(justify left bottom)
 		)
 		(uuid "8c5055d4-b1c8-42fa-b04e-38fbf4bf322a")
+	)
+	(label "3V0"
+		(at 102.87 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "978223fc-3532-4036-8e71-5a4d4fc72e96")
 	)
 	(label "WIFI_SCK"
 		(at 95.25 41.91 90)
@@ -769,7 +822,7 @@
 	)
 	(hierarchical_label "{BATTERY_POWER}"
 		(shape passive)
-		(at 43.18 26.67 180)
+		(at 40.64 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)

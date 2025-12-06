@@ -1270,6 +1270,11 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "CONTROLS"
+		(members "ADXL_INT1" "ADXL_INT2" "ADXL_CS" "ADXL_SCL" "ADXL_SDO" "ADXL_SDI"
+			"BUTTON_1" "BUTTON_2" "POT_1" "POT_2"
+		)
+	)
 	(junction
 		(at 196.85 106.68)
 		(diameter 0)
@@ -3267,7 +3272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA14R80P3X6_300X500X100"
+		(property "Footprint" "SamacSys_Parts:LGA14R80P3X6_300X500X100"
 			(at 250.19 186.36 0)
 			(effects
 				(font

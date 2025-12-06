@@ -378,6 +378,70 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 36.83 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b579615-47d3-4763-9dce-cd14afee48da")
+		(property "Reference" "H5"
+			(at 39.37 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 39.37 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 36.83 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -568,6 +632,70 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 36.83 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b973ede5-042e-4190-90de-7cb978fbb286")
+		(property "Reference" "H6"
+			(at 39.37 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 39.37 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "electrical"
+				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 115.57 85.09)
 		(size 50.8 24.13)
@@ -635,7 +763,7 @@
 		)
 		(pin "{SCREEN_INTERFACE}" passive
 			(at 166.37 96.52 0)
-			(uuid "e0b58eba-9a44-4f6c-ab96-a442ccb67644")
+			(uuid "4bcb3b3e-dc6c-43f8-9fdb-b3173403934d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,7 +826,7 @@
 		)
 		(pin "{SCREEN_INTERFACE}" passive
 			(at 194.31 91.44 180)
-			(uuid "fb3ac505-2c2f-461e-831e-6c89bb781746")
+			(uuid "df0ecf15-7f40-406e-bb97-955cea783a76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +940,7 @@
 				(justify left top)
 			)
 		)
-		(pin "{BATTERY_POWER}" passive
+		(pin "{BATTERY_POWER}" output
 			(at 91.44 91.44 0)
 			(uuid "177ef9a8-bf46-4b58-a167-972406e451a6")
 			(effects
