@@ -1,0 +1,101 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "89856379-8fe0-4a36-af5d-83217cf6b0b1")
+	(paper "A4")
+	(title_block
+		(rev "1")
+		(company "AlumaPower")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 63.5 31.75)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6a8b23-94c7-46a0-a4e6-790a4e0fb50b")
+	)
+	(bus_entry
+		(at 57.15 31.75)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32df53c-4409-45cc-89ed-c9a3db82f677")
+	)
+	(wire
+		(pts
+			(xy 63.5 39.37) (xy 63.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399bbf72-eabf-4adf-8a7e-3273db55b98b")
+	)
+	(bus
+		(pts
+			(xy 60.96 29.21) (xy 54.61 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adcf8f4-8a47-4d9e-a941-bcc010b3d401")
+	)
+	(bus
+		(pts
+			(xy 54.61 29.21) (xy 45.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63c18c0-fd81-450e-ad4c-a388a8d51571")
+	)
+	(wire
+		(pts
+			(xy 57.15 39.37) (xy 57.15 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f8a83a-9d48-435b-b0de-97a343768997")
+	)
+	(label "GND"
+		(at 57.15 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af08757e-609d-4684-889a-97f3c491c37c")
+	)
+	(label "3V0"
+		(at 63.5 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afb22d1e-89f7-45e4-9de4-974eb5278c86")
+	)
+	(hierarchical_label "{BATTERY_POWER}"
+		(shape passive)
+		(at 45.72 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b440027-348c-46c1-82b6-908bc5ae84e8")
+	)
+)

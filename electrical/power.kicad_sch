@@ -749,232 +749,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V0"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V0"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V0\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V0_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V0_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -1089,18 +863,6 @@
 		(color 0 0 0 0)
 		(uuid "5c0eddaf-429a-4c36-ae4b-4558066d3138")
 	)
-	(junction
-		(at 173.99 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f7e633-6256-4302-a197-22ff41ef4371")
-	)
-	(junction
-		(at 173.99 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f582650e-ea26-428f-9fdf-ed8d2602db94")
-	)
 	(bus_entry
 		(at 209.55 86.36)
 		(size 2.54 2.54)
@@ -1121,7 +883,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 80.01) (xy 80.01 80.01)
+			(xy 72.39 80.01) (xy 80.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1191,16 +953,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 86.36) (xy 167.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6475cd74-49ec-418b-8f5b-ba49f8b7fbe2")
-	)
-	(wire
-		(pts
 			(xy 132.08 80.01) (xy 139.7 80.01)
 		)
 		(stroke
@@ -1261,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 80.01) (xy 120.65 80.01)
+			(xy 115.57 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1299,16 +1051,6 @@
 		)
 		(uuid "e731a7ea-23ed-47f4-aecf-12626847b76c")
 	)
-	(wire
-		(pts
-			(xy 173.99 80.01) (xy 167.64 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f322ceca-b374-49e7-b2e3-90008b8726c9")
-	)
 	(label "GND"
 		(at 149.86 106.68 90)
 		(effects
@@ -1320,7 +1062,7 @@
 		(uuid "02de343d-8a8e-43db-a1e7-9068a6b4b88d")
 	)
 	(label "GND"
-		(at 74.93 80.01 0)
+		(at 72.39 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1370,7 +1112,7 @@
 		(uuid "7608ca06-73f2-496f-8027-e972c431c7a9")
 	)
 	(label "3V0"
-		(at 120.65 80.01 180)
+		(at 124.46 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1428,7 +1170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMTU2032C"
+		(property "Footprint" "SamacSys_Parts:SMTU2032C"
 			(at 234.62 63.5 0)
 			(effects
 				(font
@@ -1548,7 +1290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "SamacSys_Parts:CAPC1608X90N"
 			(at 143.51 191.44 0)
 			(effects
 				(font
@@ -1637,142 +1379,6 @@
 			(project ""
 				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12/ba769e44-f8cf-4eba-a81c-896c4be00b00"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 86.36 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b6d2ad2-cbb9-4933-aac9-7be8100609b9")
-		(property "Reference" "#PWR01"
-			(at 161.29 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35c8f0f3-b669-4683-8ac2-acf4fe574a22")
-		)
-		(instances
-			(project ""
-				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12/ba769e44-f8cf-4eba-a81c-896c4be00b00"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V0")
-		(at 167.64 80.01 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95f9d318-72db-4a0d-a971-c2b7682c524e")
-		(property "Reference" "#PWR02"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V0"
-			(at 163.83 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 167.64 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a132932b-62f9-4678-8354-3f28c4395be5")
-		)
-		(instances
-			(project ""
-				(path "/0ea7de92-e138-4a6c-b193-fca6869c3a12/ba769e44-f8cf-4eba-a81c-896c4be00b00"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1871,7 +1477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KTEELP4112S2U1252X4X5R18"
+		(property "Footprint" "SamacSys_Parts:KTEELP4112S2U1252X4X5R18"
 			(at 113.03 173.66 0)
 			(effects
 				(font
