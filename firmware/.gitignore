@@ -1,26 +1,42 @@
-# Build artifacts
+# Compiled Object files
+*.slo
+*.lo
 *.o
-*.d
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+#*.ld
+
+# Compiled binaries
+*.bin
 *.elf
 *.hex
-*.bin
-Debug/
-Release/
+*.map
 
-# IDE-specific files (if applicable, e.g., for STM32CubeIDE)
-.settings/
-*.launch
-.project
-.cproject
-.mxproject
-.mxmetadata
-.mxinfo
-*.workspace
+# Eclipse workfiles
+*.xml
+.settings
+Debug
+Release
 
-# STM32CubeMX generated files (optional, depending on project structure)
-# Drivers/
-# Middlewares/
+# CooCox workfiles
+*.cogui
+*.comarker
+#*.coproj
+*.pbxproj
+*.comemgui
+*.cproject
+*.project
+debug.config
 
-# Other temporary files
-*~
-*.log
+# JLink
+*.jflash
+
+# Trash
+*.bak
