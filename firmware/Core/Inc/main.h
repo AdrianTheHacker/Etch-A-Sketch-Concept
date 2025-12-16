@@ -61,8 +61,8 @@ void Error_Handler(void);
 #define BUTTON_2_GPIO_Port GPIOC
 #define ADXL_CS_Pin GPIO_PIN_0
 #define ADXL_CS_GPIO_Port GPIOF
-#define ADXL_SCK_Pin GPIO_PIN_1
-#define ADXL_SCK_GPIO_Port GPIOF
+#define ADXL_EINK_SCK_Pin GPIO_PIN_1
+#define ADXL_EINK_SCK_GPIO_Port GPIOF
 #define POT_2_Pin GPIO_PIN_0
 #define POT_2_GPIO_Port GPIOA
 #define POT_1_Pin GPIO_PIN_1
@@ -81,18 +81,22 @@ void Error_Handler(void);
 #define WIFI_RESET_GPIO_Port GPIOB
 #define WIFI_BUSY_Pin GPIO_PIN_1
 #define WIFI_BUSY_GPIO_Port GPIOB
-#define ADXL_MOSI_Pin GPIO_PIN_15
-#define ADXL_MOSI_GPIO_Port GPIOB
-#define ADXL_MISO_Pin GPIO_PIN_10
-#define ADXL_MISO_GPIO_Port GPIOA
-#define EINK_CS_Pin GPIO_PIN_15
-#define EINK_CS_GPIO_Port GPIOA
-#define EINK_SCK_Pin GPIO_PIN_3
-#define EINK_SCK_GPIO_Port GPIOB
-#define EINK_MISO_Pin GPIO_PIN_4
-#define EINK_MISO_GPIO_Port GPIOB
-#define EINK_MOSI_Pin GPIO_PIN_5
-#define EINK_MOSI_GPIO_Port GPIOB
+#define EINK_RST_Pin GPIO_PIN_8
+#define EINK_RST_GPIO_Port GPIOA
+#define ADXL_INT1_Pin GPIO_PIN_9
+#define ADXL_INT1_GPIO_Port GPIOA
+#define ADXL_EINK_MISO_Pin GPIO_PIN_10
+#define ADXL_EINK_MISO_GPIO_Port GPIOA
+#define ADXL_EINK_MOSI_Pin GPIO_PIN_11
+#define ADXL_EINK_MOSI_GPIO_Port GPIOA
+#define ADXL_INT2_Pin GPIO_PIN_12
+#define ADXL_INT2_GPIO_Port GPIOA
+#define EINK_CS_Pin GPIO_PIN_5
+#define EINK_CS_GPIO_Port GPIOB
+#define EINK_BUSY_Pin GPIO_PIN_6
+#define EINK_BUSY_GPIO_Port GPIOB
+#define EINK_D_C_Pin GPIO_PIN_7
+#define EINK_D_C_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

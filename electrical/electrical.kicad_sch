@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 142.24 53.34) (xy 142.24 92.71)
+			(xy 152.4 54.61) (xy 152.4 92.71)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 53.34) (xy 142.24 53.34)
+			(xy 116.84 54.61) (xy 152.4 54.61)
 		)
 		(stroke
 			(width 0)
@@ -27,13 +27,53 @@
 	)
 	(bus
 		(pts
-			(xy 142.24 92.71) (xy 175.26 92.71)
+			(xy 152.4 92.71) (xy 175.26 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44057ca7-8938-4ab0-bf24-2658ddac17fd")
+	)
+	(bus
+		(pts
+			(xy 116.84 59.69) (xy 138.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de3c2d6-aa49-4484-beb6-bc70b360956e")
+	)
+	(bus
+		(pts
+			(xy 116.84 135.89) (xy 138.43 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62de15e5-4c81-4d14-8596-d1ff92abf237")
+	)
+	(bus
+		(pts
+			(xy 116.84 46.99) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a330dd1-57fe-41f5-aae0-1c91f42864b6")
+	)
+	(bus
+		(pts
+			(xy 138.43 135.89) (xy 138.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9686c038-ba10-4a59-84c0-65ccd4699836")
 	)
 	(bus
 		(pts
@@ -151,6 +191,16 @@
 				(justify left top)
 			)
 		)
+		(pin "{ADXL_INTERFACE}" passive
+			(at 117.15 135.89 0)
+			(uuid "bdeab64b-fdd5-430c-8fd9-d6859e58ee58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "electrical"
 				(path "/677117a5-2713-4117-9fd9-f2791321eb47"
@@ -194,7 +244,7 @@
 			)
 		)
 		(pin "{WIFI_INTERFACE}" passive
-			(at 117.15 53.34 0)
+			(at 117.15 54.61 0)
 			(uuid "cf28600a-42bc-44f0-a379-9ea857b31730")
 			(effects
 				(font
@@ -206,6 +256,26 @@
 		(pin "{USER_INPUTS}" passive
 			(at 117.15 64.77 0)
 			(uuid "1adece83-6af0-4bea-9d37-66e84b1b4725")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ADXL_INTERFACE}" passive
+			(at 117.15 59.69 0)
+			(uuid "7e89e977-a151-4baa-af5d-649852a46411")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{EINK_INTERFACE}" passive
+			(at 117.15 46.99 0)
+			(uuid "6ce4d828-6281-427b-915a-fcd5fa777884")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,6 +323,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{EINK_INTERFACE}" passive
+			(at 175.26 46.99 180)
+			(uuid "21e27d03-3623-49f7-9dff-478f81e17be9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
