@@ -25,7 +25,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SMD_BATTERY_SINGLE_CELL_CR2032"
+			(property "Value" "3V0"
 				(at 1.27 2.54 90)
 				(effects
 					(font
@@ -34,7 +34,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "adrians_favs:SMD_BATTERY_SINGLE_CELL_CR2032"
 				(at 0 1.524 90)
 				(effects
 					(font
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.renata.com/en/"
 				(at -0.254 0 0)
 				(effects
 					(font
@@ -52,8 +52,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-cell battery"
+			(property "Description" "Signle cell battery case for a CR2032 coincell battery."
 				(at 1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Store" "https://mou.sr/4rY7KUn"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -165,6 +174,154 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "adrians_favs:SMD_CAPACITOR_CERAMIC_0603_10UF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10UF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "adrians_favs:SMD_CAPACITOR_CERAMIC_0603"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uF ceramic capacitor in 0603 form-factor."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Store" "https://mou.sr/49dVOXa"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD_CAPACITOR_CERAMIC_0603_10UF_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMD_CAPACITOR_CERAMIC_0603_10UF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1023,6 +1180,83 @@
 		)
 	)
 	(symbol
+		(lib_id "adrians_favs:SMD_CAPACITOR_CERAMIC_0603_10UF")
+		(at 124.46 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ef976a-9fc7-456b-a572-c50faf290d24")
+		(property "Reference" "C21"
+			(at 124.46 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10UF"
+			(at 124.46 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "adrians_favs:SMD_CAPACITOR_CERAMIC_0603"
+			(at 128.27 94.2848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF ceramic capacitor in 0603 form-factor."
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Store" "https://mou.sr/49dVOXa"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec7e4072-e59d-4718-ab37-a969ffb15162")
+		)
+		(pin "2"
+			(uuid "7c3c79d3-2685-4fb6-8b18-7e4f482feb95")
+		)
+		(instances
+			(project ""
+				(path "/677117a5-2713-4117-9fd9-f2791321eb47/a868c076-ff46-444b-a86b-c9ac10004481"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 165.1 75.25 0)
 		(unit 1)
@@ -1100,7 +1334,7 @@
 		(fields_autoplaced yes)
 		(uuid "511800aa-b15d-49cd-8419-f1c378be49a2")
 		(property "Reference" "BT2"
-			(at 123.8885 68.26 0)
+			(at 123.8885 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,14 +1342,14 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 123.8885 70.8 0)
+			(at 123.8885 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adrians_favs:SMD_BATTERY_SINGLE_CELL_CR2032"
 			(at 124.46 76.454 90)
 			(effects
 				(font
@@ -1124,7 +1358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.renata.com/en/"
 			(at 124.206 74.93 0)
 			(effects
 				(font
@@ -1133,8 +1367,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Signle cell battery case for a CR2032 coincell battery."
 			(at 125.73 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Store" "https://mou.sr/4rY7KUn"
+			(at 124.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,75 +1461,6 @@
 			(project "electrical"
 				(path "/677117a5-2713-4117-9fd9-f2791321eb47/a868c076-ff46-444b-a86b-c9ac10004481"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adrians_favs:SMD_BATTERY_SINGLE_CELL_CR2032")
-		(at 124.46 95.25 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a3d584d-2b7b-4296-b7b5-48713943ae30")
-		(property "Reference" "BT1"
-			(at 123.8885 88.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V0"
-			(at 123.8885 91.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 96.774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.206 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 125.73 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33d60a69-868c-4417-b2b5-7f1fff15e079")
-		)
-		(pin "1"
-			(uuid "746bcec2-f11b-49e5-8913-c447b42aa94c")
-		)
-		(instances
-			(project "electrical"
-				(path "/677117a5-2713-4117-9fd9-f2791321eb47/a868c076-ff46-444b-a86b-c9ac10004481"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
