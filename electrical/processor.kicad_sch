@@ -2822,16 +2822,16 @@
 		(uuid "9f8922da-c8f6-4ad1-9155-2ee74854f0f1")
 	)
 	(no_connect
+		(at 224.79 139.7)
+		(uuid "b05f70a8-1b6c-49a4-81a9-a0611e9ebf47")
+	)
+	(no_connect
 		(at 179.07 127)
 		(uuid "c9e30615-0a64-405b-948c-a265b7dc2b4a")
 	)
 	(no_connect
 		(at 222.25 93.98)
 		(uuid "d23f7a06-023c-4559-83a7-b80f4fd4493c")
-	)
-	(no_connect
-		(at 229.87 93.98)
-		(uuid "df65a116-ff29-477c-ba5c-590d924cbc6b")
 	)
 	(bus_entry
 		(at 172.72 24.13)
@@ -3993,16 +3993,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 139.7) (xy 224.79 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b3b4c5f-f357-4eea-8717-9369486b1dc2")
-	)
-	(wire
-		(pts
 			(xy 171.45 45.72) (xy 171.45 59.69)
 		)
 		(stroke
@@ -4423,6 +4413,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 82.55) (xy 229.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d969ee10-eac2-4c8e-9f3a-d3d7717cd7f4")
+	)
+	(wire
+		(pts
 			(xy 39.37 78.74) (xy 52.07 78.74)
 		)
 		(stroke
@@ -4741,6 +4741,16 @@
 		)
 		(uuid "0ed24160-d080-4893-8c20-4d7f829a4a62")
 	)
+	(label "BUTTON_1"
+		(at 229.87 82.55 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ed6d845-e0c5-4720-9be3-829a9a36dc49")
+	)
 	(label "WIFI_RESET"
 		(at 162.56 38.1 90)
 		(effects
@@ -4970,16 +4980,6 @@
 			(justify right bottom)
 		)
 		(uuid "5ff5c1de-7c75-4380-8aa8-f23e027d23d8")
-	)
-	(label "BUTTON_1"
-		(at 224.79 151.13 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "626e4e48-bf92-4a55-bf4f-7745abe80e64")
 	)
 	(label "ADXL_SDO"
 		(at 257.81 38.1 90)
@@ -7416,12 +7416,12 @@
 	(symbol
 		(lib_id "adrians_favs:SMD_RESISTOR_0603_10KR")
 		(at 105.41 41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88581cf3-72b1-4543-9e4f-004e235125ab")
 		(property "Reference" "R5"
 			(at 105.41 35.56 0)
