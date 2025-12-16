@@ -40,13 +40,9 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-ADC_HandleTypeDef hadc3;
-
-UART_HandleTypeDef hlpuart1;
-
+SPI_HandleTypeDef hspi1;
 SPI_HandleTypeDef hspi2;
 SPI_HandleTypeDef hspi3;
-SPI_HandleTypeDef hspi4;
 
 /* USER CODE BEGIN PV */
 
@@ -55,11 +51,9 @@ SPI_HandleTypeDef hspi4;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-static void MX_LPUART1_UART_Init(void);
-static void MX_ADC3_Init(void);
+static void MX_SPI1_Init(void);
 static void MX_SPI2_Init(void);
 static void MX_SPI3_Init(void);
-static void MX_SPI4_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -98,11 +92,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_LPUART1_UART_Init();
-  MX_ADC3_Init();
+  MX_SPI1_Init();
   MX_SPI2_Init();
   MX_SPI3_Init();
-  MX_SPI4_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -159,117 +151,42 @@ void SystemClock_Config(void)
 }
 
 /**
-  * @brief ADC3 Initialization Function
+  * @brief SPI1 Initialization Function
   * @param None
   * @retval None
   */
-static void MX_ADC3_Init(void)
+static void MX_SPI1_Init(void)
 {
 
-  /* USER CODE BEGIN ADC3_Init 0 */
+  /* USER CODE BEGIN SPI1_Init 0 */
 
-  /* USER CODE END ADC3_Init 0 */
+  /* USER CODE END SPI1_Init 0 */
 
-  ADC_MultiModeTypeDef multimode = {0};
-  ADC_ChannelConfTypeDef sConfig = {0};
+  /* USER CODE BEGIN SPI1_Init 1 */
 
-  /* USER CODE BEGIN ADC3_Init 1 */
-
-  /* USER CODE END ADC3_Init 1 */
-
-  /** Common config
-  */
-  hadc3.Instance = ADC3;
-  hadc3.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV2;
-  hadc3.Init.Resolution = ADC_RESOLUTION_12B;
-  hadc3.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc3.Init.GainCompensation = 0;
-  hadc3.Init.ScanConvMode = ADC_SCAN_DISABLE;
-  hadc3.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
-  hadc3.Init.LowPowerAutoWait = DISABLE;
-  hadc3.Init.ContinuousConvMode = DISABLE;
-  hadc3.Init.NbrOfConversion = 1;
-  hadc3.Init.DiscontinuousConvMode = DISABLE;
-  hadc3.Init.ExternalTrigConv = ADC_SOFTWARE_START;
-  hadc3.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
-  hadc3.Init.DMAContinuousRequests = DISABLE;
-  hadc3.Init.Overrun = ADC_OVR_DATA_PRESERVED;
-  hadc3.Init.OversamplingMode = DISABLE;
-  if (HAL_ADC_Init(&hadc3) != HAL_OK)
+  /* USER CODE END SPI1_Init 1 */
+  /* SPI1 parameter configuration*/
+  hspi1.Instance = SPI1;
+  hspi1.Init.Mode = SPI_MODE_MASTER;
+  hspi1.Init.Direction = SPI_DIRECTION_2LINES;
+  hspi1.Init.DataSize = SPI_DATASIZE_4BIT;
+  hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
+  hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
+  hspi1.Init.NSS = SPI_NSS_HARD_OUTPUT;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+  hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
+  hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
+  hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+  hspi1.Init.CRCPolynomial = 7;
+  hspi1.Init.CRCLength = SPI_CRC_LENGTH_DATASIZE;
+  hspi1.Init.NSSPMode = SPI_NSS_PULSE_ENABLE;
+  if (HAL_SPI_Init(&hspi1) != HAL_OK)
   {
     Error_Handler();
   }
+  /* USER CODE BEGIN SPI1_Init 2 */
 
-  /** Configure the ADC multi-mode
-  */
-  multimode.Mode = ADC_MODE_INDEPENDENT;
-  if (HAL_ADCEx_MultiModeConfigChannel(&hadc3, &multimode) != HAL_OK)
-  {
-    Error_Handler();
-  }
-
-  /** Configure Regular Channel
-  */
-  sConfig.Channel = ADC_CHANNEL_9;
-  sConfig.Rank = ADC_REGULAR_RANK_1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_2CYCLES_5;
-  sConfig.SingleDiff = ADC_SINGLE_ENDED;
-  sConfig.OffsetNumber = ADC_OFFSET_NONE;
-  sConfig.Offset = 0;
-  if (HAL_ADC_ConfigChannel(&hadc3, &sConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN ADC3_Init 2 */
-
-  /* USER CODE END ADC3_Init 2 */
-
-}
-
-/**
-  * @brief LPUART1 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_LPUART1_UART_Init(void)
-{
-
-  /* USER CODE BEGIN LPUART1_Init 0 */
-
-  /* USER CODE END LPUART1_Init 0 */
-
-  /* USER CODE BEGIN LPUART1_Init 1 */
-
-  /* USER CODE END LPUART1_Init 1 */
-  hlpuart1.Instance = LPUART1;
-  hlpuart1.Init.BaudRate = 209700;
-  hlpuart1.Init.WordLength = UART_WORDLENGTH_8B;
-  hlpuart1.Init.StopBits = UART_STOPBITS_1;
-  hlpuart1.Init.Parity = UART_PARITY_NONE;
-  hlpuart1.Init.Mode = UART_MODE_TX_RX;
-  hlpuart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  hlpuart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  hlpuart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
-  hlpuart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&hlpuart1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_UARTEx_SetTxFifoThreshold(&hlpuart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_UARTEx_SetRxFifoThreshold(&hlpuart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_UARTEx_DisableFifoMode(&hlpuart1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN LPUART1_Init 2 */
-
-  /* USER CODE END LPUART1_Init 2 */
+  /* USER CODE END SPI1_Init 2 */
 
 }
 
@@ -354,46 +271,6 @@ static void MX_SPI3_Init(void)
 }
 
 /**
-  * @brief SPI4 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_SPI4_Init(void)
-{
-
-  /* USER CODE BEGIN SPI4_Init 0 */
-
-  /* USER CODE END SPI4_Init 0 */
-
-  /* USER CODE BEGIN SPI4_Init 1 */
-
-  /* USER CODE END SPI4_Init 1 */
-  /* SPI4 parameter configuration*/
-  hspi4.Instance = SPI4;
-  hspi4.Init.Mode = SPI_MODE_MASTER;
-  hspi4.Init.Direction = SPI_DIRECTION_1LINE;
-  hspi4.Init.DataSize = SPI_DATASIZE_4BIT;
-  hspi4.Init.CLKPolarity = SPI_POLARITY_LOW;
-  hspi4.Init.CLKPhase = SPI_PHASE_1EDGE;
-  hspi4.Init.NSS = SPI_NSS_HARD_OUTPUT;
-  hspi4.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
-  hspi4.Init.FirstBit = SPI_FIRSTBIT_MSB;
-  hspi4.Init.TIMode = SPI_TIMODE_DISABLE;
-  hspi4.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
-  hspi4.Init.CRCPolynomial = 7;
-  hspi4.Init.CRCLength = SPI_CRC_LENGTH_DATASIZE;
-  hspi4.Init.NSSPMode = SPI_NSS_PULSE_ENABLE;
-  if (HAL_SPI_Init(&hspi4) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN SPI4_Init 2 */
-
-  /* USER CODE END SPI4_Init 2 */
-
-}
-
-/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -406,54 +283,12 @@ static void MX_GPIO_Init(void)
   /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOE_CLK_ENABLE();
-  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOF_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
-  __HAL_RCC_GPIOG_CLK_ENABLE();
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(SCREEN_D_C_GPIO_Port, SCREEN_D_C_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(SCREEN_RST_GPIO_Port, SCREEN_RST_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(WIFI_RESET_GPIO_Port, WIFI_RESET_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin : SCREEN_BUSY_Pin */
-  GPIO_InitStruct.Pin = SCREEN_BUSY_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(SCREEN_BUSY_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : SCREEN_D_C_Pin */
-  GPIO_InitStruct.Pin = SCREEN_D_C_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(SCREEN_D_C_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : SCREEN_RST_Pin */
-  GPIO_InitStruct.Pin = SCREEN_RST_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(SCREEN_RST_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : ADXL_INT1_Pin ADXL_INT2_Pin BUTTON_1_Pin BUTTON_2_Pin */
-  GPIO_InitStruct.Pin = ADXL_INT1_Pin|ADXL_INT2_Pin|BUTTON_1_Pin|BUTTON_2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : WIFI_BUSY_Pin */
-  GPIO_InitStruct.Pin = WIFI_BUSY_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(WIFI_BUSY_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : WIFI_RESET_Pin */
   GPIO_InitStruct.Pin = WIFI_RESET_Pin;
@@ -461,6 +296,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(WIFI_RESET_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : WIFI_BUSY_Pin */
+  GPIO_InitStruct.Pin = WIFI_BUSY_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(WIFI_BUSY_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 

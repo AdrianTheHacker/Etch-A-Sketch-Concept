@@ -1,6 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/libraries/SamacSys_Parts.kicad_sym")(options "")(descr ""))
-  (lib (name "FTSH-107-01-F-DV-K")(type "KiCad")(uri "${KIPRJMOD}/libraries/FTSH-107-01-F-DV-K/FTSH-107-01-F-DV-K.kicad_sym")(options "")(descr ""))
-  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom.kicad_sym")(options "")(descr ""))
+  (lib (name "adrians_favs")(type "KiCad")(uri "${KIPRJMOD}/library/AdrianTheHackers_Favourites/adrians_favs.kicad_sym")(options "")(descr ""))
 )

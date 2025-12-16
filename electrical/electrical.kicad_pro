@@ -416,7 +416,7 @@
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "warning",
+      "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
@@ -448,7 +448,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "adrians_favs"
+    ]
   },
   "meta": {
     "filename": "electrical.kicad_pro",
@@ -560,84 +562,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -683,28 +613,32 @@
   },
   "sheets": [
     [
-      "0ea7de92-e138-4a6c-b193-fca6869c3a12",
+      "677117a5-2713-4117-9fd9-f2791321eb47",
       "Root"
     ],
     [
-      "067dac4b-279d-4cde-ba9f-e5c950414682",
+      "639e8570-649e-480b-9860-c3f8c25b10cb",
       "Processor"
     ],
     [
-      "ba769e44-f8cf-4eba-a81c-896c4be00b00",
+      "7950c92d-b608-45e5-861a-e92ca807ec72",
+      "User Input"
+    ],
+    [
+      "2f45da94-b4f5-4303-b295-9b42addf6c46",
+      "Accelerometer"
+    ],
+    [
+      "6db9faad-babc-4616-8373-b719369ad21c",
+      "Screen"
+    ],
+    [
+      "29fef48c-cb61-45bf-a58a-d813b66db837",
+      "WiFi"
+    ],
+    [
+      "a868c076-ff46-444b-a86b-c9ac10004481",
       "Power"
-    ],
-    [
-      "5c80e7a0-2fc8-469f-b7eb-810d0b40b08d",
-      "Display"
-    ],
-    [
-      "68b59efc-50f7-4c9f-9221-1f98d99d79a4",
-      "Controls"
-    ],
-    [
-      "70c0b45f-7fa0-4609-89ad-75dccab319b6",
-      "Connectivity"
     ]
   ],
   "text_variables": {}

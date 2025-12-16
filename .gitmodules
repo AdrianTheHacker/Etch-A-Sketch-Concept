@@ -1,0 +1,3 @@
+[submodule "electrical/library/AdrianTheHackers_Favourites"]
+	path = electrical/library/AdrianTheHackers_Favourites
+	url = https://github.com/AdrianTheHacker/kicad-component-library-v0.git
