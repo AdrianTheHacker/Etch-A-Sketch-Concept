@@ -35,6 +35,36 @@
 		)
 		(uuid "44057ca7-8938-4ab0-bf24-2658ddac17fd")
 	)
+	(bus
+		(pts
+			(xy 125.73 86.36) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c295343-e64d-4ffe-8434-ff3481a1c7f2")
+	)
+	(bus
+		(pts
+			(xy 116.84 86.36) (xy 125.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c252b49b-ec27-42d9-a649-ff2bd6da1ace")
+	)
+	(bus
+		(pts
+			(xy 125.73 64.77) (xy 117.15 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43e7c35-852d-4145-a42a-abff308c4167")
+	)
 	(sheet
 		(at 175.26 79.38)
 		(size 60 30)
@@ -173,6 +203,16 @@
 				(justify right)
 			)
 		)
+		(pin "{USER_INPUTS}" passive
+			(at 117.15 64.77 0)
+			(uuid "1adece83-6af0-4bea-9d37-66e84b1b4725")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "electrical"
 				(path "/677117a5-2713-4117-9fd9-f2791321eb47"
@@ -255,6 +295,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{USER_INPUTS}" passive
+			(at 117.15 86.36 0)
+			(uuid "5a3b7b82-7c11-45f6-b4ab-cda3ec512e92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

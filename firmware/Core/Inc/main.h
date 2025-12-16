@@ -57,10 +57,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BUTTON_2_Pin GPIO_PIN_15
+#define BUTTON_2_GPIO_Port GPIOC
 #define ADXL_CS_Pin GPIO_PIN_0
 #define ADXL_CS_GPIO_Port GPIOF
 #define ADXL_SCK_Pin GPIO_PIN_1
 #define ADXL_SCK_GPIO_Port GPIOF
+#define POT_2_Pin GPIO_PIN_0
+#define POT_2_GPIO_Port GPIOA
+#define POT_1_Pin GPIO_PIN_1
+#define POT_1_GPIO_Port GPIOA
+#define BUTTON_1_Pin GPIO_PIN_2
+#define BUTTON_1_GPIO_Port GPIOA
 #define WIFI_CS_Pin GPIO_PIN_4
 #define WIFI_CS_GPIO_Port GPIOA
 #define WIFI_SCK_Pin GPIO_PIN_5
@@ -73,10 +81,10 @@ void Error_Handler(void);
 #define WIFI_RESET_GPIO_Port GPIOB
 #define WIFI_BUSY_Pin GPIO_PIN_1
 #define WIFI_BUSY_GPIO_Port GPIOB
-#define ADXL_MISO_Pin GPIO_PIN_14
-#define ADXL_MISO_GPIO_Port GPIOB
 #define ADXL_MOSI_Pin GPIO_PIN_15
 #define ADXL_MOSI_GPIO_Port GPIOB
+#define ADXL_MISO_Pin GPIO_PIN_10
+#define ADXL_MISO_GPIO_Port GPIOA
 #define EINK_CS_Pin GPIO_PIN_15
 #define EINK_CS_GPIO_Port GPIOA
 #define EINK_SCK_Pin GPIO_PIN_3

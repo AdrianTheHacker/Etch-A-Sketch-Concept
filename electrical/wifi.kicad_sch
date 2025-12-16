@@ -1014,7 +1014,7 @@
 		(uuid "fd4c0167-32ac-4e27-b312-ac9becbf57fc")
 	)
 	(global_label "GND"
-		(shape input)
+		(shape passive)
 		(at 38.1 30.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1025,7 +1025,7 @@
 		)
 		(uuid "22088ac7-e803-431a-86fc-1b5fcfcaad55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.2443 30.48 0)
+			(at 32.3556 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1036,7 @@
 		)
 	)
 	(global_label "+3V0"
-		(shape input)
+		(shape passive)
 		(at 38.1 24.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1047,7 +1047,7 @@
 		)
 		(uuid "d88d54c9-667f-4902-b26f-34b02cb2ee5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.0348 24.13 0)
+			(at 31.1461 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2814,10 +2814,6 @@
 		(uuid "3c517728-aab4-4305-805a-f8685a162d26")
 	)
 	(no_connect
-		(at 222.25 139.7)
-		(uuid "520a777c-ac39-48df-838f-8c73e8156a2c")
-	)
-	(no_connect
 		(at 207.01 93.98)
 		(uuid "57765232-c769-41a1-9f02-e82300a043da")
 	)
@@ -2828,10 +2824,6 @@
 	(no_connect
 		(at 179.07 116.84)
 		(uuid "67e6845c-a440-444a-b74f-2bff3fc55ec4")
-	)
-	(no_connect
-		(at 209.55 139.7)
-		(uuid "7f8ec8b0-57e4-4484-af2f-804cce129a74")
 	)
 	(no_connect
 		(at 247.65 109.22)
@@ -2848,10 +2840,6 @@
 	(no_connect
 		(at 217.17 93.98)
 		(uuid "ae783fda-63df-4248-a686-cc706a51ef7f")
-	)
-	(no_connect
-		(at 219.71 139.7)
-		(uuid "b61a49ec-696a-4d2d-972b-d5ce0ce98f58")
 	)
 	(no_connect
 		(at 212.09 139.7)
@@ -2878,10 +2866,6 @@
 		(uuid "d7aeed9d-c962-4f5e-ab4f-6c4bf273c270")
 	)
 	(no_connect
-		(at 224.79 139.7)
-		(uuid "d91e954b-08ac-41fd-83b7-847a9e509426")
-	)
-	(no_connect
 		(at 229.87 93.98)
 		(uuid "df65a116-ff29-477c-ba5c-590d924cbc6b")
 	)
@@ -2899,6 +2883,24 @@
 		(uuid "0348265d-ae37-4dfb-9cfa-76bf38566953")
 	)
 	(bus_entry
+		(at 161.29 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a992a4c-1002-4bbf-91d8-24ef5eee47ef")
+	)
+	(bus_entry
+		(at 157.48 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58da471c-e60a-41ff-abc6-0df090f7cd32")
+	)
+	(bus_entry
 		(at 179.07 24.13)
 		(size 2.54 2.54)
 		(stroke
@@ -2908,6 +2910,15 @@
 		(uuid "8129d3f5-6bde-49e5-a90b-ea45f53531b1")
 	)
 	(bus_entry
+		(at 168.91 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2940b6-ba49-4096-a02a-c04b71c9d2d7")
+	)
+	(bus_entry
 		(at 160.02 24.13)
 		(size 2.54 2.54)
 		(stroke
@@ -2915,6 +2926,15 @@
 			(type default)
 		)
 		(uuid "9e8973f9-f57e-4798-934a-573beae78f6a")
+	)
+	(bus_entry
+		(at 165.1 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a728b3a1-8ee9-481b-b119-1d5076493ddd")
 	)
 	(bus_entry
 		(at 166.37 24.13)
@@ -2942,6 +2962,16 @@
 			(type default)
 		)
 		(uuid "f45ecb74-ffb0-4206-9659-8d0941775798")
+	)
+	(wire
+		(pts
+			(xy 219.71 139.7) (xy 219.71 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d086c9-f37d-41a1-a94c-4f5a50610dc0")
 	)
 	(wire
 		(pts
@@ -3022,6 +3052,26 @@
 			(type default)
 		)
 		(uuid "0abc3f93-ef36-4cf9-98d3-90554ffdd236")
+	)
+	(wire
+		(pts
+			(xy 222.25 139.7) (xy 222.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdfd838-c1c3-49ce-a456-dbd5de2afaa4")
+	)
+	(bus
+		(pts
+			(xy 165.1 43.18) (xy 168.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fadd017-d685-47fc-94c4-4ed165791a25")
 	)
 	(wire
 		(pts
@@ -3373,6 +3423,16 @@
 		)
 		(uuid "5d5d7ea1-fcb9-46f8-b406-dd366d6fbe66")
 	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 163.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3be0c6-7644-4582-a8ab-570f97981e32")
+	)
 	(bus
 		(pts
 			(xy 153.67 24.13) (xy 160.02 24.13)
@@ -3513,6 +3573,16 @@
 		)
 		(uuid "7e318346-e663-4ef5-a055-e229e5520339")
 	)
+	(wire
+		(pts
+			(xy 167.64 45.72) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5ecdf7-0a01-4631-833b-091a9ca0f368")
+	)
 	(polyline
 		(pts
 			(xy 123.19 24.13) (xy 123.19 55.88)
@@ -3545,6 +3615,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 139.7) (xy 209.55 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ea485c-e6df-47cb-a35c-e46253819e0b")
+	)
+	(wire
+		(pts
 			(xy 39.37 78.74) (xy 39.37 76.2)
 		)
 		(stroke
@@ -3562,6 +3642,16 @@
 			(type default)
 		)
 		(uuid "8700b698-8f81-4abd-b398-2db5c0aea35d")
+	)
+	(bus
+		(pts
+			(xy 161.29 43.18) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8776dc91-26dd-408f-b9ea-dbc9da4d7aff")
 	)
 	(wire
 		(pts
@@ -3652,6 +3742,26 @@
 			(type default)
 		)
 		(uuid "9b33b610-bce3-4056-8049-9a84dcc2332f")
+	)
+	(wire
+		(pts
+			(xy 224.79 139.7) (xy 224.79 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3b4c5f-f357-4eea-8717-9369486b1dc2")
+	)
+	(wire
+		(pts
+			(xy 171.45 45.72) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf9cc05-21c7-48b1-b606-4be8c70635c8")
 	)
 	(wire
 		(pts
@@ -3822,6 +3932,16 @@
 			(type default)
 		)
 		(uuid "b715e1fe-bc9b-4677-8b1d-f680f16f9a65")
+	)
+	(bus
+		(pts
+			(xy 157.48 43.18) (xy 161.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4b5382-f84d-488b-81cd-057ab599cc1e")
 	)
 	(wire
 		(pts
@@ -4115,6 +4235,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 45.72) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecad236b-ea15-4bcc-863e-37a846757eb8")
+	)
+	(wire
+		(pts
 			(xy 55.88 153.67) (xy 68.58 153.67)
 		)
 		(stroke
@@ -4122,6 +4252,16 @@
 			(type default)
 		)
 		(uuid "ed5c3bd3-bfa4-466c-88f5-04e792a329f6")
+	)
+	(bus
+		(pts
+			(xy 153.67 43.18) (xy 157.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b8c966-13ae-410f-8687-c973f3645c8a")
 	)
 	(wire
 		(pts
@@ -4172,6 +4312,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e1ace0d-0d47-4a88-9af4-4e21a8fd9cf0")
+	)
+	(label "POT_2"
+		(at 160.02 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ed24160-d080-4893-8c20-4d7f829a4a62")
 	)
 	(label "WIFI_RESET"
 		(at 162.56 38.1 90)
@@ -4263,6 +4413,16 @@
 		)
 		(uuid "41aeff4e-af90-44d0-be4a-f1e0b4ba1234")
 	)
+	(label "POT_1"
+		(at 222.25 151.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44c64755-23fb-4442-8144-1cb47f90a1bc")
+	)
 	(label "WIFI_RESET"
 		(at 260.35 124.46 180)
 		(effects
@@ -4293,6 +4453,16 @@
 		)
 		(uuid "59befe44-eb85-4e42-a7c3-66077855f528")
 	)
+	(label "BUTTON_1"
+		(at 224.79 151.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "626e4e48-bf92-4a55-bf4f-7745abe80e64")
+	)
 	(label "TDO"
 		(at 166.37 111.76 0)
 		(effects
@@ -4313,6 +4483,16 @@
 		)
 		(uuid "7868477b-0a1e-4194-ac40-2d1f0d324bd0")
 	)
+	(label "POT_1"
+		(at 163.83 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79409f5b-f628-49ab-a9f4-67ca2263b6c7")
+	)
 	(label "WIFI_CS"
 		(at 229.87 151.13 90)
 		(effects
@@ -4332,6 +4512,16 @@
 			(justify right bottom)
 		)
 		(uuid "85b3d19c-3055-4829-b9ec-d5cc2ecd58ad")
+	)
+	(label "BUTTON_1"
+		(at 171.45 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8867fcd3-1f7b-4a63-9140-bac5a8275305")
 	)
 	(label "WIFI_BUSY"
 		(at 168.91 38.1 90)
@@ -4393,6 +4583,26 @@
 		)
 		(uuid "aa3a4cd9-fd78-4975-bf38-86d15ea957e7")
 	)
+	(label "POT_2"
+		(at 219.71 151.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf601e7f-7fc4-4d97-ba0b-f41c0139db73")
+	)
+	(label "BUTTON_2"
+		(at 167.64 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3cac01a-a6a6-45b0-acab-da324dcc0336")
+	)
 	(label "TDI"
 		(at 87.63 93.98 180)
 		(effects
@@ -4413,6 +4623,16 @@
 		)
 		(uuid "cc3940d6-467e-4468-b0f0-d844c51d3d97")
 	)
+	(label "BUTTON_2"
+		(at 209.55 151.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d51270c4-5e84-40ce-b4b3-1fc9ee11e780")
+	)
 	(label "TMS{slash}SWDAT"
 		(at 87.63 91.44 180)
 		(effects
@@ -4424,7 +4644,7 @@
 		(uuid "e8eae1eb-9408-463a-afa8-131e530026a7")
 	)
 	(global_label "+3V0"
-		(shape input)
+		(shape passive)
 		(at 252.73 30.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4435,7 +4655,7 @@
 		)
 		(uuid "5241d887-ae60-44df-8b1d-f1e234f6ab10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.6648 30.48 0)
+			(at 245.7761 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4666,7 @@
 		)
 	)
 	(global_label "GND"
-		(shape input)
+		(shape passive)
 		(at 252.73 24.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4457,7 +4677,7 @@
 		)
 		(uuid "f0e7a131-eeee-4487-8e30-a461bfdb25f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.8743 24.13 0)
+			(at 246.9856 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,6 +4686,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "{USER_INPUTS}"
+		(shape passive)
+		(at 153.67 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06e43dfb-f1c4-4282-bd74-5490c2a2d92d")
 	)
 	(hierarchical_label "{WIFI_INTERFACE}"
 		(shape passive)
