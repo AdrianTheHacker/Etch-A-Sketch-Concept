@@ -3503,7 +3503,8 @@
 	)
 	(symbol
 		(lib_id "adrians_favs:SMD_CAPACITOR_CERAMIC_0603_1UF")
-		(at 53.34 167.64 90)
+		(at 53.34 167.64 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3528,7 +3529,7 @@
 			)
 		)
 		(property "Footprint" "adrians_favs:SMD_CAPACITOR_CERAMIC_0603"
-			(at 57.15 166.6748 0)
+			(at 49.53 166.6748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5611,8 @@
 	)
 	(symbol
 		(lib_id "adrians_favs:SMD_CAPACITOR_CERAMIC_0603_1UF")
-		(at 53.34 154.94 90)
+		(at 53.34 154.94 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5635,7 +5637,7 @@
 			)
 		)
 		(property "Footprint" "adrians_favs:SMD_CAPACITOR_CERAMIC_0603"
-			(at 57.15 153.9748 0)
+			(at 49.53 153.9748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
