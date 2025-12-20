@@ -1,0 +1,33 @@
+### Footprint positions - created on 2025-12-20T07:52:06-0500 ###
+### Printed by KiCad version 9.0.6-1.fc43
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                    Package                               PosX       PosY       Rot  Side
+BT2       +3V0                   SMD_BATTERY_SINGLE_CELL_CR2032    183.0000   -84.7000  -90.0000  bottom
+C1        100NF                  SMD_CAPACITOR_CERAMIC_0603        142.2500  -114.0120  180.0000  bottom
+C2        100NF                  SMD_CAPACITOR_CERAMIC_0603        140.5000  -103.0500   90.0000  bottom
+C3        100NF                  SMD_CAPACITOR_CERAMIC_0603        149.2500  -100.0120    0.0000  bottom
+C4        10UF                   SMD_CAPACITOR_CERAMIC_0603        142.2500  -115.5120    0.0000  bottom
+C5        100NF                  SMD_CAPACITOR_CERAMIC_0603        147.7000  -114.0120  180.0000  bottom
+C6        1UF                    SMD_CAPACITOR_CERAMIC_0603        147.7000  -115.5120    0.0000  bottom
+C7        100NF                  SMD_CAPACITOR_CERAMIC_0603        144.9500  -114.0120  180.0000  bottom
+C8        1UF                    SMD_CAPACITOR_CERAMIC_0603        144.9500  -115.5120    0.0000  bottom
+C9        100NF                  SMD_CAPACITOR_CERAMIC_0603        159.5000  -115.0000  -90.0000  bottom
+C10       1UF                    SMD_CAPACITOR_TANTALUM_0603_1UF   180.5500  -120.5000  180.0000  bottom
+C11       100NF                  SMD_CAPACITOR_CERAMIC_0603        186.3000  -120.5000  180.0000  bottom
+C21       10UF                   SMD_CAPACITOR_CERAMIC_0603        136.5000   -83.5000   90.0000  bottom
+D1        Green                  SMD_LED_GREEN_0603                178.3000   -65.7500    0.0000  bottom
+IC1       STM32G474CBT6TR        SMD_STM32G474CBT6TR               146.5000  -106.2500  180.0000  bottom
+IC2       THT_WIFI_MODULE        THT_WIFI_MODULE                   155.2500   -79.5000    0.0000  bottom
+IC3       SMD_ADXL345BCCZ        SMD_ADXL345BCCZ                   183.5000  -117.5000   90.0000  bottom
+R1        110R                   SMD_RESISTOR_0603                 174.3000   -65.7500    0.0000  bottom
+R2        10KR                   SMD_RESISTOR_0603                 166.3000  -132.3400  -90.0000  bottom
+R3        10KR                   SMD_RESISTOR_0603                 163.3000  -132.3400   90.0000  bottom
+R4        10KR                   SMD_RESISTOR_0603                 155.8000  -132.3400   90.0000  bottom
+R5        10KR                   SMD_RESISTOR_0603                 161.8000  -107.0000    0.0000  bottom
+R7        10KR                   SMD_RESISTOR_0603                 136.5500  -108.0000    0.0000  bottom
+R9        10KR                   SMD_RESISTOR_0603                 179.7500  -116.5000  -90.0000  bottom
+R10       1KR                    SMD_RESISTOR_0603                 125.0500   -84.2500  180.0000  bottom
+R11       1.5KR                  SMD_RESISTOR_0603                 125.0500   -86.2500  180.0000  bottom
+SW2       SMD_SWITCH_HORIZONTAL  SMD_SWITCH_HORIZONTAL             168.2500  -107.0000  -90.0000  bottom
+## End

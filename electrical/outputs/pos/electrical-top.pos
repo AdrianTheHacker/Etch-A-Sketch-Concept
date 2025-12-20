@@ -1,0 +1,30 @@
+### Footprint positions - created on 2025-12-20T07:52:06-0500 ###
+### Printed by KiCad version 9.0.6-1.fc43
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                        Package                                  PosX       PosY       Rot  Side
+C12       1UF                        SMD_CAPACITOR_CERAMIC_0603           131.9500   -92.7500    0.0000  top
+C13       1UF                        SMD_CAPACITOR_CERAMIC_0603           131.9500   -95.7500    0.0000  top
+C14       1UF                        SMD_CAPACITOR_CERAMIC_0603           132.3500   -81.2500  180.0000  top
+C15       1UF                        SMD_CAPACITOR_CERAMIC_0603           132.1000   -86.7500  180.0000  top
+C16       1UF                        SMD_CAPACITOR_CERAMIC_0603           132.0500   -88.2500  180.0000  top
+C17       1UF                        SMD_CAPACITOR_CERAMIC_0603           132.0000   -89.7500  180.0000  top
+C18       1UF                        SMD_CAPACITOR_CERAMIC_0603           143.9500   -76.7500    0.0000  top
+C19       1UF                        SMD_CAPACITOR_CERAMIC_0603           131.8000   -94.2500    0.0000  top
+C20       1UF                        SMD_CAPACITOR_CERAMIC_0603           131.9500   -91.2500  180.0000  top
+D2        SMD_DIODE_MBR0530T1G       SMD_DIODE_MBR0530T1G                 134.5000   -75.0000    0.0000  top
+D3        SMD_DIODE_MBR0530T1G       SMD_DIODE_MBR0530T1G                 148.5000   -76.0000   90.0000  top
+D4        SMD_DIODE_MBR0530T1G       SMD_DIODE_MBR0530T1G                 144.0000   -74.2500  180.0000  top
+J1        24_Pins                    THT_CONNECTOR_JTAG_SWD               154.5500  -128.2500    0.0000  top
+J2        6871XX149022_687124149022  SMD_CONNECTOR_RIBBON_CABLE_24_PINS   124.7500   -85.0000  -90.0000  top
+L1        47uH                       SMD_INDUCTOR_0603                    142.5000   -84.2500  -90.0000  top
+Q1        SMD_MOSFET_NX3008NBKS      SMD_MOSFET_NX3008NBKS                140.2500   -77.7500    0.0000  top
+R6        10KR                       SMD_RESISTOR_0603                    151.0000   -94.5000   90.0000  top
+R8        10KR                       SMD_RESISTOR_0603                    176.8000  -110.0000  180.0000  top
+R12       2.2R                       SMD_RESISTOR_0603                    132.2500   -79.7500    0.0000  top
+RV1       100KR                      THT_POTENTIOMETER_100KR              130.7500  -126.4750    0.0000  top
+RV2       100KR                      THT_POTENTIOMETER_100KR              179.2500  -126.5000    0.0000  top
+SW1       SMD_BUTTON                 SMD_BUTTON                           155.0000  -115.0000    0.0000  top
+SW3       SMD_BUTTON                 SMD_BUTTON                           137.5000  -115.0000    0.0000  top
+SW4       SMD_BUTTON                 SMD_BUTTON                           173.0000  -115.0000    0.0000  top
+## End

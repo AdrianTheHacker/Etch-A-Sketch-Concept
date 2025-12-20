@@ -137,7 +137,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "outputs/gerber/")
+			(outputdirectory "outputs/")
 		)
 	)
 	(net 0 "")
@@ -11533,7 +11533,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "THT_WIFI_MODULE"
 			(at 0 -1 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11574,7 +11574,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Store" "https://www.adafruit.com/product/4201"
+		(property "Supplier" "https://www.adafruit.com/product/4201"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11591,7 +11591,7 @@
 		(path "/29fef48c-cb61-45bf-a58a-d813b66db837/4b83edef-fe09-43ec-838f-90684e354712")
 		(sheetname "/WiFi/")
 		(sheetfile "wifi.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_rect
 			(start -16 16.5)
 			(end 16 -16.5)

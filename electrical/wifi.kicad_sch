@@ -140,8 +140,8 @@
 		)
 		(symbol "adrians_favs:THT_WIFI_MODULE"
 			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
+			(in_bom no)
+			(on_board no)
 			(property "Reference" "IC"
 				(at -13.97 -6.35 0)
 				(effects
@@ -1207,9 +1207,9 @@
 		(at 184.15 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b83edef-fe09-43ec-838f-90684e354712")
 		(property "Reference" "IC2"
