@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "store" "https://mou.sr/3MCeAPf"
+			(property "Store" "https://mou.sr/3MCeAPf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5502,6 +5502,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "STMicroelectronics"
+			(at 214.63 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "STM32G474CBT6TR"
+			(at 214.63 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 214.63 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "41"
 			(uuid "6014b3b6-0d04-4bd6-84ce-be299089ac05")
 		)
@@ -5716,6 +5743,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "KYOCERA AVX"
+			(at 52.07 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "06031C104MAT2A"
+			(at 52.07 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 52.07 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5202731c-4ad3-41c3-aa47-9381917e429b")
 		)
@@ -5859,6 +5913,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "Vishay / Draloric"
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RCA060310K0JNEA"
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc5448bd-d7ea-478d-9f6e-2e9b4e677a53")
 		)
@@ -5928,6 +6009,33 @@
 		)
 		(property "Store" "https://mou.sr/4sgzoML"
 			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KYOCERA AVX"
+			(at 52.07 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "06031C104MAT2A"
+			(at 52.07 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 52.07 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,6 +6454,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "KYOCERA AVX"
+			(at 107.95 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "06031C104MAT2A"
+			(at 107.95 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 107.95 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4f11565-cfa6-450d-9160-65760423ded2")
 		)
@@ -6416,6 +6551,33 @@
 		)
 		(property "Store" "https://mou.sr/49dVOXa"
 			(at 52.07 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KYOCERA AVX"
+			(at 52.07 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "06034D106KAT2A"
+			(at 52.07 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 52.07 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,6 +6662,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "KYOCERA AVX"
+			(at 107.95 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0603DC105MAT2A"
+			(at 107.95 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 107.95 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71f45100-e12a-4cb5-adb7-efee6a64b812")
 		)
@@ -6577,6 +6766,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "Vishay / Draloric"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RCA060310K0JNEA"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bf21f2f-e269-4f54-99e8-d6bc48571991")
 		)
@@ -6646,6 +6862,33 @@
 		)
 		(property "Store" "https://mou.sr/4sgzoML"
 			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KYOCERA AVX"
+			(at 107.95 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "06031C104MAT2A"
+			(at 107.95 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 107.95 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,6 +7308,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "KYOCERA AVX"
+			(at 107.95 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0603DC105MAT2A"
+			(at 107.95 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 107.95 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58465388-548e-4350-aa7d-31bf219dddad")
 		)
@@ -7475,6 +7745,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "Vishay / Draloric"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RCA060310K0JNEA"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c5ca3da4-9937-42a6-a234-cc4b41cfea21")
 		)
@@ -7686,6 +7983,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "Vishay / Draloric"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RCA060310K0JNEA"
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 96.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "708b0f9e-ad5f-4e0c-976c-70c9a2b707b9")
 		)
@@ -7826,6 +8150,33 @@
 			)
 		)
 		(property "Store" "https://mou.sr/4j2MDMG"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "TE Connectivity"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "103308-5"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -8091,6 +8442,33 @@
 		)
 		(property "Store" "https://mou.sr/4sgzoML"
 			(at 52.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KYOCERA AVX"
+			(at 52.07 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "06031C104MAT2A"
+			(at 52.07 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 52.07 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8436,6 +8814,42 @@
 			)
 		)
 		(property "store" "https://mou.sr/3MCeAPf"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "E-Switch"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "TL3301CF260QG"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Store" "https://mou.sr/3MCeAPf"
 			(at 49.53 39.37 0)
 			(effects
 				(font
@@ -9129,6 +9543,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "C&K"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "AYZ0102AGRLC"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58062a05-437a-432e-ac8f-863bfbf732bb")
 		)
@@ -9344,6 +9785,33 @@
 		)
 		(property "Store" "https://mou.sr/4sgzoML"
 			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KYOCERA AVX"
+			(at 49.53 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "06031C104MAT2A"
+			(at 49.53 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 49.53 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)

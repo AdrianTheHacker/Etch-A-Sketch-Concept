@@ -552,6 +552,24 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "MFG",
+          "name": "MFG",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFG P/N",
+          "name": "MFG P/N",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Store",
+          "name": "Store",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
@@ -562,12 +580,6 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Store",
-          "name": "Store",
-          "show": false
         },
         {
           "group_by": false,
@@ -605,7 +617,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

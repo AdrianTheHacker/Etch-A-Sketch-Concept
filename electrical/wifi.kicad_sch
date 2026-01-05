@@ -1266,6 +1266,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "Adafruit"
+			(at 184.15 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "4201"
+			(at 184.15 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 184.15 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "6014936e-d50d-4d4f-b85a-4073bc6def67")
 		)
@@ -1436,6 +1463,33 @@
 		)
 		(property "Store" "https://mou.sr/4iWw44S"
 			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Vishay / Draloric"
+			(at 160.02 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RCA060310K0JNEA"
+			(at 160.02 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 160.02 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)

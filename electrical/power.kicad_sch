@@ -376,7 +376,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://look.ams-osram.com/m/4cbb1524123e38e9/original/KT-EELP41-12.pdf"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -403,7 +403,7 @@
 					(hide yes)
 				)
 			)
-			(property "https://mou.sr/3MG6oNW" "https://mou.sr/3MG6oNW"
+			(property "Store" "https://mou.sr/3MG6oNW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1241,6 +1241,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "KYOCERA AVX"
+			(at 124.46 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "06034D106KAT2A"
+			(at 124.46 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 124.46 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec7e4072-e59d-4718-ab37-a969ffb15162")
 		)
@@ -1377,6 +1404,33 @@
 			)
 		)
 		(property "Store" "https://mou.sr/4rY7KUn"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Renata"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "SMTU2032-G.TR"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
 			(at 124.46 74.93 0)
 			(effects
 				(font
@@ -1596,6 +1650,33 @@
 				(hide yes)
 			)
 		)
+		(property "MFG" "TE Connectivity / Holsworthy"
+			(at 149.86 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RT73F1J110RBTD"
+			(at 149.86 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 149.86 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a33fe92c-8934-45e7-bb6c-9c76dbe0f603")
 		)
@@ -1648,7 +1729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://look.ams-osram.com/m/4cbb1524123e38e9/original/KT-EELP41-12.pdf"
+		(property "Datasheet" "~"
 			(at 149.86 80.17 0)
 			(effects
 				(font
@@ -1675,8 +1756,35 @@
 				(hide yes)
 			)
 		)
-		(property "https://mou.sr/3MG6oNW" "https://mou.sr/3MG6oNW"
+		(property "Store" "https://mou.sr/3MG6oNW"
 			(at 149.86 80.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "ams OSRAM"
+			(at 149.86 80.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "KT EELP41.12-S2U1-25-2X4X-5-R18"
+			(at 149.86 80.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "https://mou.sr/3MG6oNW" ""
+			(at 149.86 80.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
