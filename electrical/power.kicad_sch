@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "68f79a80-db43-4ee5-8ee8-4da92eaea149")
 	(paper "A4")
+	(title_block
+		(title "Etchasketch Power")
+		(date "2025-12-08")
+		(rev "2.0")
+		(company "github.com/AdrianTheHacker")
+	)
 	(lib_symbols
 		(symbol "adrians_favs:SMD_BATTERY_SINGLE_CELL_CR2032"
 			(pin_numbers

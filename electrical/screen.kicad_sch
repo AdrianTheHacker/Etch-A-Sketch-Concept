@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "e6890f44-a114-40cf-92a2-6bf05001f09c")
 	(paper "A4")
+	(title_block
+		(title "Etchasketch E-Ink Screen")
+		(rev "2.0")
+		(company "github.com/AdrianTheHacker")
+	)
 	(lib_symbols
 		(symbol "SMD_DIODE_MBR0530T1G_1"
 			(pin_numbers

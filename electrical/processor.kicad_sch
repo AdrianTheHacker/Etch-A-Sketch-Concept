@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "0422045d-58bf-4aea-ab56-094504663a45")
 	(paper "A4")
+	(title_block
+		(title "Etchasketch Processor")
+		(date "2025-11-12")
+		(rev "2.0")
+		(company "github.com/AdrianTheHacker")
+	)
 	(lib_symbols
 		(symbol "adrians_favs:SMD_BUTTON"
 			(pin_names
